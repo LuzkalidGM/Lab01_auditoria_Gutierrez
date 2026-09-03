@@ -1,0 +1,12 @@
+﻿id_riesgo,host,activo,dueno_del_riesgo,clasificacion,amenaza,vulnerabilidad,cve,cvss,severidad_tecnica,probabilidad,impacto,riesgo_inherente,nivel,tipo_escaneo
+R-001,si084_dvwa,Aplicación legada interna,dueno_operaciones,Interna,Explotación de vulnerabilidad técnica identificada,Operating System (OS) End of Life (EOL) Detection,N/D,10.0,Critical,4,3,12,Alto,No autenticado
+R-002,si084_db,Base de datos ERP,dueno_finanzas,Restringida,Explotación de vulnerabilidad técnica identificada,Debian: Security Advisory (DSA-6465-1),N/D,5.0,Medium,2,5,10,Medio,Autenticado
+R-006,si084_juiceshop,Portal de clientes,dueno_ti,Confidencial,Explotación de vulnerabilidad técnica identificada,TCP Timestamps Information Disclosure,N/D,2.6,Low,2,4,8,Medio,No autenticado
+R-008,si084_juiceshop,Portal de clientes,dueno_ti,Confidencial,Explotación de vulnerabilidad técnica identificada,ICMP Timestamp Reply Information Disclosure,N/D,2.1,Low,2,4,8,Medio,No autenticado
+R-003,si084_db,Base de datos ERP,dueno_finanzas,Restringida,Explotación de vulnerabilidad técnica identificada,TCP Timestamps Information Disclosure,N/D,2.6,Low,1,5,5,Bajo,No autenticado
+R-007,si084_db,Base de datos ERP,dueno_finanzas,Restringida,Explotación de vulnerabilidad técnica identificada,Weak MAC Algorithm(s) Supported (SSH),N/D,2.6,Low,1,5,5,Bajo,Autenticado
+R-011,si084_db,Base de datos ERP,dueno_finanzas,Restringida,Explotación de vulnerabilidad técnica identificada,ICMP Timestamp Reply Information Disclosure,N/D,2.1,Low,1,5,5,Bajo,No autenticado
+R-004,si084_dvwa,Aplicación legada interna,dueno_operaciones,Interna,Explotación de vulnerabilidad técnica identificada,TCP Timestamps Information Disclosure,N/D,2.6,Low,1,3,3,Bajo,No autenticado
+R-010,si084_dvwa,Aplicación legada interna,dueno_operaciones,Interna,Explotación de vulnerabilidad técnica identificada,ICMP Timestamp Reply Information Disclosure,N/D,2.1,Low,1,3,3,Bajo,No autenticado
+R-005,si084_portal,Portal corporativo,dueno_ti,Pública,Explotación de vulnerabilidad técnica identificada,TCP Timestamps Information Disclosure,N/D,2.6,Low,2,1,2,Bajo,No autenticado
+R-009,si084_portal,Portal corporativo,dueno_ti,Pública,Explotación de vulnerabilidad técnica identificada,ICMP Timestamp Reply Information Disclosure,N/D,2.1,Low,2,1,2,Bajo,No autenticado
