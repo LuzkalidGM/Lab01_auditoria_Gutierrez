@@ -1,0 +1,45 @@
+TALLER 04 - FASE 4 - TRIVY
+
+Alcance de vulnerabilidades: HIGH y CRITICAL
+Herramienta: Trivy 0.74.0
+Criterio: cada fila corresponde a una ocurrencia vulnerabilidad-paquete-objetivo del JSON.
+
+Resumen por imagen
+- Juice Shop (bkimminich/juice-shop:latest)
+  HIGH: 45 | CRITICAL: 8 | Total: 53
+  IDs unicos: 50 | Ocurrencias con version corregida informada: 51
+  Sistema detectado: debian 13.6
+  Image ID: sha256:73c53fbf442e8337b3ea3d98c7e8550308854701ebdfce4cc39768f36b75430e
+  Repo digest: bkimminich/juice-shop@sha256:73c53fbf442e8337b3ea3d98c7e8550308854701ebdfce4cc39768f36b75430e
+- PostgreSQL 16 (postgres:16)
+  HIGH: 98 | CRITICAL: 14 | Total: 112
+  IDs unicos: 44 | Ocurrencias con version corregida informada: 25
+  Sistema detectado: debian 13.6
+  Image ID: sha256:f1c3376c26f2609ab9f29f71f824103fe2fcd8ee0346485cb6122a4f93df6f94
+  Repo digest: postgres@sha256:f1c3376c26f2609ab9f29f71f824103fe2fcd8ee0346485cb6122a4f93df6f94
+- WordPress (wordpress:latest)
+  HIGH: 210 | CRITICAL: 21 | Total: 231
+  IDs unicos: 147 | Ocurrencias con version corregida informada: 43
+  Sistema detectado: debian 13.6
+  Image ID: sha256:5a93c470ae8220fddf71f6ebe3bc94e615ddc2ae4d9810f795b830fb11c41a17
+  Repo digest: wordpress@sha256:5a93c470ae8220fddf71f6ebe3bc94e615ddc2ae4d9810f795b830fb11c41a17
+- MariaDB 11 (mariadb:11)
+  HIGH: 21 | CRITICAL: 1 | Total: 22
+  IDs unicos: 22 | Ocurrencias con version corregida informada: 22
+  Sistema detectado: ubuntu 24.04
+  Image ID: sha256:2d2f4095530294735a857cfe22bb101e19b0849b416911c796ec4aa81b164a62
+  Repo digest: mariadb@sha256:2d2f4095530294735a857cfe22bb101e19b0849b416911c796ec4aa81b164a62
+
+Totales
+- HIGH: 374
+- CRITICAL: 44
+- Ocurrencias: 418
+- IDs unicos globales: 219
+
+Analisis complementarios
+- Trivy config: 0 objetivos compatibles; 0 configuraciones incorrectas reportadas.
+  Trivy informo 'Detected config files num=0'; los archivos IaC presentes son Docker Compose, tipo no incluido en los escaneres de configuracion activos de Trivy 0.74.0.
+- Trivy fs --scanners secret: 0 hallazgos sensibles.
+- SBOM Juice Shop: CycloneDX 1.7; 709 componentes y 710 relaciones.
+
+Nota: los conteos corresponden al estado de las imagenes y de la base de datos de Trivy al momento de la corrida.

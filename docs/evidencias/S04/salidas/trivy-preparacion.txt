@@ -1,0 +1,27 @@
+TALLER 04 - FASE 4 - REGISTRO DE PREPARACION Y EJECUCION
+Fecha: 2026-09-09
+
+Herramienta
+- Trivy: 0.74.0
+- Imagen: aquasec/trivy:0.74.0
+- Digest: aquasec/trivy@sha256:62b1e65e8869bc4b4c6aa4fa2b21595256c7c2f6018a9d9ad61caf87187c1969
+
+Imagenes analizadas
+- bkimminich/juice-shop:latest @ sha256:73c53fbf442e8337b3ea3d98c7e8550308854701ebdfce4cc39768f36b75430e
+- postgres:16 @ sha256:f1c3376c26f2609ab9f29f71f824103fe2fcd8ee0346485cb6122a4f93df6f94
+- wordpress:latest @ sha256:5a93c470ae8220fddf71f6ebe3bc94e615ddc2ae4d9810f795b830fb11c41a17
+- mariadb:11 @ sha256:2d2f4095530294735a857cfe22bb101e19b0849b416911c796ec4aa81b164a62
+
+Comandos logicos ejecutados
+- trivy image --scanners vuln --severity HIGH,CRITICAL --format json <imagen>
+- trivy config --format json /workspace
+- trivy config --format table /workspace
+- trivy fs --scanners secret --format json /workspace
+- trivy image --format cyclonedx bkimminich/juice-shop:latest
+
+Resultados de ejecucion
+- Los cuatro escaneos de imagen terminaron con codigo 0.
+- Trivy config termino con codigo 0 y detecto 0 archivos compatibles.
+- Trivy secret termino con codigo 0 y detecto 0 secretos.
+- El reporte bruto temporal de secretos fue eliminado despues del saneamiento.
+- El SBOM termino con codigo 0 y usa CycloneDX 1.7.

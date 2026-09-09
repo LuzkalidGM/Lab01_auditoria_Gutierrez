@@ -1,0 +1,8 @@
+docker-bench-security.sh: line 9: 
+: not found
+docker-bench-security.sh: line 11: 
+: not found
+docker-bench-security.sh: line 13: 
+: not found
+docker-bench-security.sh: .: line 15: can't open './functions/functions_lib.sh
+': No such file or directory

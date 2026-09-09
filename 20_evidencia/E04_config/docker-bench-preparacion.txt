@@ -1,0 +1,33 @@
+TALLER 04 - FASE 3 - REGISTRO DE PREPARACION Y EJECUCION
+Fecha: 2026-09-09
+
+Fuente oficial
+- Repositorio: https://github.com/docker/docker-bench-security.git
+- Commit: 154869da6418089decf7e1ab0cfca0e1cdfc5c49
+- Descripcion Git: v1.6.1-15-g154869d
+- Version declarada por el script: 1.6.0
+- Benchmark declarado por el script: CIS Docker Benchmark 1.6.0
+
+Imagen usada
+- Etiqueta local: si084-docker-bench:official-local
+- Image ID: sha256:212220aa7b4a4bc4c8495a9ea57737f4aa5817fee0129d200c1ab2141ab81e63
+- Checkout construido con core.autocrlf=false; CRLF_COUNT=0.
+
+Entorno
+- Docker Desktop: 4.40.0
+- Docker Engine: 28.0.4
+- Host del daemon: docker-desktop, linux/amd64, WSL2
+
+Intento 1
+- Resultado: no se ejecuto la auditoria; codigo 2.
+- Error: functions_lib.sh con caracter CR al final de la ruta.
+- Causa: checkout inicial con finales de linea CRLF.
+- Evidencia: docker-bench-consola_intento1.txt.
+
+Ejecucion valida
+- Codigo de salida: 0.
+- Argumentos: --rm --net host --pid host --userns host --cap-add audit_control
+- Montajes: /etc:ro, /var/lib:ro, /var/run/docker.sock:ro y carpeta de logs.
+- Etiqueta de exclusion: docker_bench_security.
+- Opcion del script: -b (sin colores).
+- Archivos oficiales: docker-bench.log y docker-bench.json.

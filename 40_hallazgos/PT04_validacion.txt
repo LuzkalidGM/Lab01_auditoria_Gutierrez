@@ -1,0 +1,30 @@
+Total de hallazgos: 485
+Hallazgos por herramienta:
+  - Docker Bench: 25
+  - Lynis: 37
+  - OpenSCAP: 5
+  - Trivy: 418
+Hallazgos por severidad:
+  - CRITICAL: 44
+  - HIGH: 374
+  - MEDIUM: 5
+  - SUGGESTION: 35
+  - WARN: 27
+Hallazgos por control ISO:
+  - A.8.8 Management of technical vulnerabilities: 423
+  - Sin clasificar: 13
+  - A.8.15 Logging: 11
+  - A.8.9 Configuration management: 9
+  - A.5.17 Authentication information: 8
+  - A.8.20 Networks security: 4
+  - A.8.2 Privileged access rights: 3
+  - A.5.15 Access control: 3
+  - A.8.16 Monitoring activities: 3
+  - A.8.6 Capacity management: 3
+  - A.7.10 Storage media: 2
+  - A.8.13 Information backup: 1
+  - A.5.21 Managing information security in the ICT supply chain: 1
+  - A.8.7 Protection against malware: 1
+Cantidad sin clasificar: 13
+Porcentaje sin clasificar: 2.68%
+Meta menor a 20%: CUMPLIDA

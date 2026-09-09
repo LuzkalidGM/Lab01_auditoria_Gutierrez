@@ -1,0 +1,3369 @@
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package openssl.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 4393 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.2-0ubuntu1.29_amd64.deb ...
+Unpacking openssl (3.0.2-0ubuntu1.29) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../01-ca-certificates_20260601~22.04.1_all.deb ...
+Unpacking ca-certificates (20260601~22.04.1) ...
+Selecting previously unselected package libapparmor1:amd64.
+Preparing to unpack .../02-libapparmor1_3.0.4-2ubuntu2.5_amd64.deb ...
+Unpacking libapparmor1:amd64 (3.0.4-2ubuntu2.5) ...
+Selecting previously unselected package libdbus-1-3:amd64.
+Preparing to unpack .../03-libdbus-1-3_1.12.20-2ubuntu4.1_amd64.deb ...
+Unpacking libdbus-1-3:amd64 (1.12.20-2ubuntu4.1) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../04-libexpat1_2.4.7-1ubuntu0.7_amd64.deb ...
+Unpacking libexpat1:amd64 (2.4.7-1ubuntu0.7) ...
+Selecting previously unselected package dbus.
+Preparing to unpack .../05-dbus_1.12.20-2ubuntu4.1_amd64.deb ...
+Unpacking dbus (1.12.20-2ubuntu4.1) ...
+Selecting previously unselected package libicu70:amd64.
+Preparing to unpack .../06-libicu70_70.1-2_amd64.deb ...
+Unpacking libicu70:amd64 (70.1-2) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../07-libxml2_2.9.13+dfsg-1ubuntu0.12_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.13+dfsg-1ubuntu0.12) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../08-libnghttp2-14_1.43.0-1ubuntu0.4_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.43.0-1ubuntu0.4) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../09-libpsl5_0.21.0-1.2build2_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.0-1.2build2) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../10-publicsuffix_20211207.1025-1_all.deb ...
+Unpacking publicsuffix (20211207.1025-1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../11-libbrotli1_1.0.9-2build6_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2build6) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../12-libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../13-libsasl2-2_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libldap-2.5-0:amd64.
+Preparing to unpack .../14-libldap-2.5-0_2.5.20+dfsg-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libldap-2.5-0:amd64 (2.5.20+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../15-librtmp1_2.4+20151223.gitfa8646d.1-2build4_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../16-libssh-4_0.9.6-2ubuntu0.22.04.8_amd64.deb ...
+Unpacking libssh-4:amd64 (0.9.6-2ubuntu0.22.04.8) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../17-libcurl4_7.81.0-1ubuntu1.27_amd64.deb ...
+Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.27) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../18-libldap-common_2.5.20+dfsg-0ubuntu0.22.04.1_all.deb ...
+Unpacking libldap-common (2.5.20+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../19-libsasl2-modules_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libxslt1.1:amd64.
+Preparing to unpack .../20-libxslt1.1_1.1.34-4ubuntu0.22.04.5_amd64.deb ...
+Unpacking libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.5) ...
+Selecting previously unselected package libopenscap8.
+Preparing to unpack .../21-libopenscap8_1.2.17-0.1ubuntu7.22.04.3_amd64.deb ...
+Unpacking libopenscap8 (1.2.17-0.1ubuntu7.22.04.3) ...
+Setting up libexpat1:amd64 (2.4.7-1ubuntu0.7) ...
+Setting up libapparmor1:amd64 (3.0.4-2ubuntu2.5) ...
+Setting up libpsl5:amd64 (0.21.0-1.2build2) ...
+Setting up libbrotli1:amd64 (1.0.9-2build6) ...
+Setting up libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libnghttp2-14:amd64 (1.43.0-1ubuntu0.4) ...
+Setting up libldap-common (2.5.20+dfsg-0ubuntu0.22.04.1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Setting up libdbus-1-3:amd64 (1.12.20-2ubuntu4.1) ...
+Setting up dbus (1.12.20-2ubuntu4.1) ...
+Setting up libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libssh-4:amd64 (0.9.6-2ubuntu0.22.04.8) ...
+Setting up openssl (3.0.2-0ubuntu1.29) ...
+Setting up publicsuffix (20211207.1025-1) ...
+Setting up libicu70:amd64 (70.1-2) ...
+Setting up libldap-2.5-0:amd64 (2.5.20+dfsg-0ubuntu0.22.04.1) ...
+Setting up ca-certificates (20260601~22.04.1) ...
+Updating certificates in /etc/ssl/certs...
+121 added, 0 removed; done.
+Setting up libcurl4:amd64 (7.81.0-1ubuntu1.27) ...
+Setting up libxml2:amd64 (2.9.13+dfsg-1ubuntu0.12) ...
+Setting up libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.5) ...
+Setting up libopenscap8 (1.2.17-0.1ubuntu7.22.04.3) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.14) ...
+Processing triggers for ca-certificates (20260601~22.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+=== VERSION OPENSCAP ===
+OpenSCAP command line tool (oscap) 1.2.17
+Copyright 2009--2017 Red Hat Inc., Durham, North Carolina.
+
+==== Supported specifications ====
+XCCDF Version: 1.2
+OVAL Version: 5.11.1
+CPE Version: 2.3
+CVSS Version: 2.0
+CVE Version: 2.0
+Asset Identification Version: 1.1
+Asset Reporting Format Version: 1.1
+CVRF Version: 1.1
+
+==== Capabilities added by auto-loaded plugins ====
+SCE Version: 1.0 (from libopenscap_sce.so.8)
+
+==== Paths ====
+Schema files: /usr/share/openscap/schemas
+Default CPE files: /usr/share/openscap/cpe
+Probes: /usr/lib/x86_64-linux-gnu/openscap
+
+==== Inbuilt CPE names ====
+Red Hat Enterprise Linux - cpe:/o:redhat:enterprise_linux
+Red Hat Enterprise Linux 5 - cpe:/o:redhat:enterprise_linux:5
+Red Hat Enterprise Linux 6 - cpe:/o:redhat:enterprise_linux:6
+Red Hat Enterprise Linux 7 - cpe:/o:redhat:enterprise_linux:7
+Oracle Linux 5 - cpe:/o:oracle:linux:5
+Oracle Linux 6 - cpe:/o:oracle:linux:6
+Oracle Linux 7 - cpe:/o:oracle:linux:7
+Community Enterprise Operating System 5 - cpe:/o:centos:centos:5
+Community Enterprise Operating System 6 - cpe:/o:centos:centos:6
+Community Enterprise Operating System 7 - cpe:/o:centos:centos:7
+Scientific Linux 5 - cpe:/o:scientificlinux:scientificlinux:5
+Scientific Linux 6 - cpe:/o:scientificlinux:scientificlinux:6
+Scientific Linux 7 - cpe:/o:scientificlinux:scientificlinux:7
+Fedora 16 - cpe:/o:fedoraproject:fedora:16
+Fedora 17 - cpe:/o:fedoraproject:fedora:17
+Fedora 18 - cpe:/o:fedoraproject:fedora:18
+Fedora 19 - cpe:/o:fedoraproject:fedora:19
+Fedora 20 - cpe:/o:fedoraproject:fedora:20
+Fedora 21 - cpe:/o:fedoraproject:fedora:21
+Fedora 22 - cpe:/o:fedoraproject:fedora:22
+Fedora 23 - cpe:/o:fedoraproject:fedora:23
+Fedora 24 - cpe:/o:fedoraproject:fedora:24
+Fedora 25 - cpe:/o:fedoraproject:fedora:25
+Fedora 26 - cpe:/o:fedoraproject:fedora:26
+Fedora 27 - cpe:/o:fedoraproject:fedora:27
+Fedora 28 - cpe:/o:fedoraproject:fedora:28
+Fedora 29 - cpe:/o:fedoraproject:fedora:29
+SUSE Linux Enterprise all versions - cpe:/o:suse:sle
+SUSE Linux Enterprise Server 10 - cpe:/o:suse:sles:10
+SUSE Linux Enterprise Desktop 10 - cpe:/o:suse:sled:10
+SUSE Linux Enterprise Server 11 - cpe:/o:suse:linux_enterprise_server:11
+SUSE Linux Enterprise Desktop 11 - cpe:/o:suse:linux_enterprise_desktop:11
+SUSE Linux Enterprise Server 12 - cpe:/o:suse:sles:12
+SUSE Linux Enterprise Desktop 12 - cpe:/o:suse:sled:12
+openSUSE 11.4 - cpe:/o:opensuse:opensuse:11.4
+openSUSE 13.1 - cpe:/o:opensuse:opensuse:13.1
+openSUSE 13.2 - cpe:/o:opensuse:opensuse:13.2
+openSUSE 42.1 - cpe:/o:novell:leap:42.1
+openSUSE 42.2 - cpe:/o:novell:leap:42.2
+openSUSE All Versions - cpe:/o:opensuse:opensuse
+Red Hat Enterprise Linux Optional Productivity Applications - cpe:/a:redhat:rhel_productivity
+Red Hat Enterprise Linux Optional Productivity Applications 5 - cpe:/a:redhat:rhel_productivity:5
+Wind River Linux all versions - cpe:/o:windriver:wrlinux
+Wind River Linux 8 - cpe:/o:windriver:wrlinux:8
+
+==== Supported OVAL objects and associated OpenSCAP probes ====
+OVAL family   OVAL object                  OpenSCAP probe              
+----------    ----------                   ----------                  
+(null)        system_info                  probe_system_info           
+independent   family                       probe_family                
+independent   filehash                     probe_filehash              
+independent   environmentvariable          probe_environmentvariable   
+independent   textfilecontent54            probe_textfilecontent54     
+independent   textfilecontent              probe_textfilecontent       
+independent   variable                     probe_variable              
+independent   xmlfilecontent               probe_xmlfilecontent        
+independent   environmentvariable58        probe_environmentvariable58 
+independent   filehash58                   probe_filehash58            
+linux         dpkginfo                     probe_dpkginfo              
+linux         inetlisteningservers         probe_inetlisteningservers  
+linux         partition                    probe_partition             
+linux         iflisteners                  probe_iflisteners           
+linux         selinuxboolean               probe_selinuxboolean        
+linux         selinuxsecuritycontext       probe_selinuxsecuritycontext
+linux         systemdunitproperty          probe_systemdunitproperty   
+linux         systemdunitdependency        probe_systemdunitdependency 
+unix          file                         probe_file                  
+unix          interface                    probe_interface             
+unix          password                     probe_password              
+unix          process                      probe_process               
+unix          runlevel                     probe_runlevel              
+unix          shadow                       probe_shadow                
+unix          uname                        probe_uname                 
+unix          xinetd                       probe_xinetd                
+unix          sysctl                       probe_sysctl                
+unix          process58                    probe_process58             
+unix          routingtable                 probe_routingtable          
+unix          symlink                      probe_symlink               
+
+=== INFORMACION DEL DATASTREAM ===
+Document type: Source Data Stream
+Imported: 2026-09-01T18:41:32
+
+Stream: scap_org.open-scap_datastream_from_xccdf_ssg-ubuntu2204-xccdf.xml
+Generated: 2026-09-01T13:39:13
+Version: 1.3
+Checklists:
+	Ref-Id: scap_org.open-scap_cref_ssg-ubuntu2204-xccdf.xml
+		Status: draft
+		Generated: 2026-09-01
+		Resolved: true
+		Profiles:
+			Title: CIS Ubuntu Linux 22.04 LTS Benchmark for Level 1 - Server
+				Id: xccdf_org.ssgproject.content_profile_cis_level1_server
+			Title: CIS Ubuntu Linux 22.04 LTS Benchmark for Level 1 - Workstation
+				Id: xccdf_org.ssgproject.content_profile_cis_level1_workstation
+			Title: CIS Ubuntu Linux 22.04 LTS Benchmark for Level 2 - Server
+				Id: xccdf_org.ssgproject.content_profile_cis_level2_server
+			Title: CIS Ubuntu Linux 22.04 LTS Benchmark for Level 2 - Workstation
+				Id: xccdf_org.ssgproject.content_profile_cis_level2_workstation
+			Title: Standard System Security Profile for Ubuntu 22.04
+				Id: xccdf_org.ssgproject.content_profile_standard
+			Title: Canonical Ubuntu 22.04 LTS Security Technical Implementation Guide (STIG) V2R7
+				Id: xccdf_org.ssgproject.content_profile_stig
+		Referenced check files:
+			ssg-ubuntu2204-oval.xml
+				system: http://oval.mitre.org/XMLSchema/oval-definitions-5
+			ssg-ubuntu2204-ocil.xml
+				system: http://scap.nist.gov/schema/ocil/2
+			ubuntu2204/checks/sce/accounts_users_own_home_directories.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/all_apparmor_profiles_enforced.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/all_apparmor_profiles_in_enforce_complain_mode.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/apparmor_configured.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_rsyslog_enabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_systemd-journal-upload_enabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_systemd-journald_enabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/socket_systemd-journal-remote_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_ip6tables_default_rule.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_ipv6_loopback_traffic.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_loopback_traffic.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/ip6tables_rules_for_open_ports.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/iptables_rules_for_open_ports.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_iptables_default_rule.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv6_conf_all_accept_ra.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv6_conf_all_accept_redirects.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv6_conf_all_accept_source_route.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv6_conf_all_forwarding.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv6_conf_default_accept_ra.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv6_conf_default_accept_redirects.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv6_conf_default_accept_source_route.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_all_accept_redirects.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_all_accept_source_route.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_all_log_martians.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_all_rp_filter.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_all_secure_redirects.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_default_accept_redirects.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_default_accept_source_route.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_default_log_martians.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_default_rp_filter.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_default_secure_redirects.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_icmp_echo_ignore_broadcasts.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_icmp_ignore_bogus_error_responses.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_tcp_syncookies.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_all_send_redirects.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_conf_default_send_redirects.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_net_ipv4_ip_forward.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_nftables_enabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_nftables_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/nftables_ensure_default_deny_policy.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_nftables_base_chain.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_nftables_loopback_traffic.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_nftables_table.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/check_ufw_active.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_ufw_default_rule.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/set_ufw_loopback_traffic.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/ufw_rate_limit.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/ufw_rules_for_open_ports.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_bluetooth_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/no_files_unowned_by_user.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_fs_protected_hardlinks.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_fs_protected_symlinks.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_autofs_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_kernel_dmesg_restrict.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_kernel_yama_ptrace_scope.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_fs_suid_dumpable.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/sysctl_kernel_randomize_va_space.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_apport_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_avahi-daemon_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_kdump_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_cron_enabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_dhcpd6_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_dhcpd_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_dnsmasq_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_vsftpd_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_httpd_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_nginx_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_dovecot_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_slapd_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_rpcbind_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_nfs_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_rsyncd_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_xinetd_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_ypserv_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_tftp_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_cups_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_squid_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_smb_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_snmpd_disabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_sshd_enabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_sssd_enabled.sh
+				system: http://open-scap.org/page/SCE
+			ubuntu2204/checks/sce/service_auditd_enabled.sh
+				system: http://open-scap.org/page/SCE
+Checks:
+	Ref-Id: scap_org.open-scap_cref_ssg-ubuntu2204-oval.xml
+	Ref-Id: scap_org.open-scap_cref_ssg-ubuntu2204-ocil.xml
+	Ref-Id: scap_org.open-scap_cref_ssg-ubuntu2204-cpe-oval.xml
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-accounts_users_own_home_directories.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-all_apparmor_profiles_enforced.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-all_apparmor_profiles_in_enforce_complain_mode.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-apparmor_configured.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_rsyslog_enabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_systemd-journal-upload_enabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_systemd-journald_enabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-socket_systemd-journal-remote_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_ip6tables_default_rule.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_ipv6_loopback_traffic.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_loopback_traffic.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-ip6tables_rules_for_open_ports.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-iptables_rules_for_open_ports.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_iptables_default_rule.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv6_conf_all_accept_ra.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv6_conf_all_accept_redirects.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv6_conf_all_accept_source_route.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv6_conf_all_forwarding.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv6_conf_default_accept_ra.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv6_conf_default_accept_redirects.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv6_conf_default_accept_source_route.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_all_accept_redirects.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_all_accept_source_route.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_all_log_martians.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_all_rp_filter.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_all_secure_redirects.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_default_accept_redirects.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_default_accept_source_route.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_default_log_martians.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_default_rp_filter.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_default_secure_redirects.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_icmp_echo_ignore_broadcasts.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_icmp_ignore_bogus_error_responses.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_tcp_syncookies.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_all_send_redirects.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_conf_default_send_redirects.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_net_ipv4_ip_forward.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_nftables_enabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_nftables_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-nftables_ensure_default_deny_policy.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_nftables_base_chain.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_nftables_loopback_traffic.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_nftables_table.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-check_ufw_active.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_ufw_default_rule.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-set_ufw_loopback_traffic.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-ufw_rate_limit.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-ufw_rules_for_open_ports.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_bluetooth_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-no_files_unowned_by_user.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_fs_protected_hardlinks.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_fs_protected_symlinks.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_autofs_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_kernel_dmesg_restrict.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_kernel_yama_ptrace_scope.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_fs_suid_dumpable.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-sysctl_kernel_randomize_va_space.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_apport_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_avahi-daemon_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_kdump_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_cron_enabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_dhcpd6_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_dhcpd_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_dnsmasq_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_vsftpd_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_httpd_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_nginx_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_dovecot_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_slapd_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_rpcbind_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_nfs_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_rsyncd_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_xinetd_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_ypserv_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_tftp_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_cups_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_squid_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_smb_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_snmpd_disabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_sshd_enabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_sssd_enabled.sh
+	Ref-Id: scap_org.open-scap_cref_ubuntu2204-checks-sce-service_auditd_enabled.sh
+Dictionaries:
+	Ref-Id: scap_org.open-scap_cref_ssg-ubuntu2204-cpe-dictionary.xml
+
+=== EVALUACION CIS LEVEL 1 SERVER ===
+W: oscap: File ssg-ubuntu2204-cpe-oval.xml has already been registered in Source DataStream session: /contenido/ssg-ubuntu2204-ds.xml
+Title
+	Package "prelink" Must not be Installed
+Rule
+	xccdf_org.ssgproject.content_rule_package_prelink_removed
+Result
+	pass
+
+Title
+	Install AIDE
+Rule
+	xccdf_org.ssgproject.content_rule_package_aide_installed
+Result
+	notapplicable
+
+Title
+	Build and Test AIDE Database
+Rule
+	xccdf_org.ssgproject.content_rule_aide_build_database
+Result
+	notapplicable
+
+Title
+	Configure Periodic Execution of AIDE
+Rule
+	xccdf_org.ssgproject.content_rule_aide_periodic_cron_checking
+Result
+	notapplicable
+
+Title
+	Ensure /dev/shm is configured
+Rule
+	xccdf_org.ssgproject.content_rule_partition_for_dev_shm
+Result
+	notapplicable
+
+Title
+	Ensure /tmp Located On Separate Partition
+Rule
+	xccdf_org.ssgproject.content_rule_partition_for_tmp
+Result
+	notapplicable
+
+Title
+	Disable the GNOME3 Login User List
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_disable_user_list
+Result
+	notapplicable
+
+Title
+	Disable XDMCP in GDM
+Rule
+	xccdf_org.ssgproject.content_rule_gnome_gdm_disable_xdmcp
+Result
+	notapplicable
+
+Title
+	Disable GNOME3 Automounting
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_disable_automount
+Result
+	notapplicable
+
+Title
+	Disable GNOME3 Automount Opening
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_disable_automount_open
+Result
+	notapplicable
+
+Title
+	Disable GNOME3 Automount running
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_disable_autorun
+Result
+	notapplicable
+
+Title
+	Set GNOME3 Screensaver Inactivity Timeout
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_screensaver_idle_delay
+Result
+	notapplicable
+
+Title
+	Set GNOME3 Screensaver Lock Delay After Activation Period
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_screensaver_lock_delay
+Result
+	notapplicable
+
+Title
+	Enable GNOME3 Screensaver Lock After Idle Period
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_screensaver_lock_enabled
+Result
+	notapplicable
+
+Title
+	Install sudo Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_sudo_installed
+Result
+	notapplicable
+
+Title
+	Ensure Only Users Logged In To Real tty Can Execute Sudo - sudo use_pty
+Rule
+	xccdf_org.ssgproject.content_rule_sudo_add_use_pty
+Result
+	notapplicable
+
+Title
+	Ensure Sudo Logfile Exists - sudo logfile
+Rule
+	xccdf_org.ssgproject.content_rule_sudo_custom_logfile
+Result
+	notapplicable
+
+Title
+	Ensure Users Re-Authenticate for Privilege Escalation - sudo !authenticate
+Rule
+	xccdf_org.ssgproject.content_rule_sudo_remove_no_authenticate
+Result
+	notapplicable
+
+Title
+	Require Re-Authentication When Using the sudo Command
+Rule
+	xccdf_org.ssgproject.content_rule_sudo_require_reauthentication
+Result
+	notapplicable
+
+Title
+	Ensure Local Login Warning Banner Is Configured Properly
+Rule
+	xccdf_org.ssgproject.content_rule_banner_etc_issue_cis
+Result
+	notapplicable
+
+Title
+	Ensure Remote Login Warning Banner Is Configured Properly
+Rule
+	xccdf_org.ssgproject.content_rule_banner_etc_issue_net_cis
+Result
+	notapplicable
+
+Title
+	Ensure Message Of The Day Is Configured Properly
+Rule
+	xccdf_org.ssgproject.content_rule_banner_etc_motd_cis
+Result
+	notapplicable
+
+Title
+	Verify Group Ownership of System Login Banner
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_issue
+Result
+	pass
+
+Title
+	Verify Group Ownership of System Login Banner for Remote Connections
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_issue_net
+Result
+	pass
+
+Title
+	Verify Group Ownership of Message of the Day Banner
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_motd
+Result
+	pass
+
+Title
+	Verify ownership of System Login Banner
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_issue
+Result
+	pass
+
+Title
+	Verify ownership of System Login Banner for Remote Connections
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_issue_net
+Result
+	pass
+
+Title
+	Verify ownership of Message of the Day Banner
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_motd
+Result
+	pass
+
+Title
+	Verify permissions on System Login Banner
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_issue
+Result
+	pass
+
+Title
+	Verify permissions on System Login Banner for Remote Connections
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_issue_net
+Result
+	pass
+
+Title
+	Verify permissions on Message of the Day Banner
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_motd
+Result
+	pass
+
+Title
+	Enable GNOME3 Login Warning Banner
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_banner_enabled
+Result
+	notapplicable
+
+Title
+	Set the GNOME3 Login Warning Banner Text
+Rule
+	xccdf_org.ssgproject.content_rule_dconf_gnome_login_banner_text
+Result
+	notapplicable
+
+Title
+	Install pam-modules Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_pam_modules_installed
+Result
+	pass
+
+Title
+	Install pam_pwquality Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_pam_pwquality_installed
+Result
+	fail
+
+Title
+	Install pam-runtime Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_pam_runtime_installed
+Result
+	pass
+
+Title
+	Verify pam_unix module is activated
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_enabled
+Result
+	pass
+
+Title
+	Verify pam_pwhistory module is activated
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_pwhistory_enabled
+Result
+	notapplicable
+
+Title
+	Limit Password Reuse
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_pwhistory_enforce_root
+Result
+	notapplicable
+
+Title
+	Limit Password Reuse
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_pwhistory_remember
+Result
+	notapplicable
+
+Title
+	Enforce Password History with use_authtok
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_pwhistory_use_authtok
+Result
+	notapplicable
+
+Title
+	Require use_authtok for pam_unix.so
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_authtok
+Result
+	notapplicable
+
+Title
+	Lock Accounts After Failed Password Attempts
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny
+Result
+	notapplicable
+
+Title
+	Ensure pam_faillock module is enabled
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_enabled
+Result
+	notapplicable
+
+Title
+	Set Lockout Time for Failed Password Attempts
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_unlock_time
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Minimum Digit Characters
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_dcredit
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Prevent the Use of Dictionary Words
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_dictcheck
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Minimum Different Characters
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_difok
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Enforce for root User
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_enforce_root
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Enforcing
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_enforcing
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Minimum Lowercase Characters
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_lcredit
+Result
+	notapplicable
+
+Title
+	Set Password Maximum Consecutive Repeating Characters
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_maxrepeat
+Result
+	notapplicable
+
+Title
+	Limit the maximum number of sequential characters in passwords
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_maxsequence
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Minimum Different Categories
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_minclass
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Minimum Length
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_minlen
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Minimum Special Characters
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_ocredit
+Result
+	notapplicable
+
+Title
+	Verify pam_pwquality module is activated
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_pwquality_enabled
+Result
+	notapplicable
+
+Title
+	Ensure PAM Enforces Password Requirements - Minimum Uppercase Characters
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_ucredit
+Result
+	notapplicable
+
+Title
+	Set Password Hashing Algorithm in /etc/login.defs
+Rule
+	xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_logindefs
+Result
+	notapplicable
+
+Title
+	Set PAM Password Hashing Algorithm - system-auth
+Rule
+	xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_systemauth
+Result
+	notapplicable
+
+Title
+	Ensure All Accounts on the System Have Unique User IDs
+Rule
+	xccdf_org.ssgproject.content_rule_account_unique_id
+Result
+	notapplicable
+
+Title
+	Ensure All Groups on the System Have Unique Group ID
+Rule
+	xccdf_org.ssgproject.content_rule_group_unique_id
+Result
+	notapplicable
+
+Title
+	Ensure All Groups on the System Have Unique Group Names
+Rule
+	xccdf_org.ssgproject.content_rule_group_unique_name
+Result
+	notapplicable
+
+Title
+	Set Account Expiration Following Inactivity
+Rule
+	xccdf_org.ssgproject.content_rule_account_disable_post_pw_expiration
+Result
+	notapplicable
+
+Title
+	Ensure All Accounts on the System Have Unique Names
+Rule
+	xccdf_org.ssgproject.content_rule_account_unique_name
+Result
+	notapplicable
+
+Title
+	Ensure shadow Group is Empty
+Rule
+	xccdf_org.ssgproject.content_rule_ensure_shadow_group_empty
+Result
+	notapplicable
+
+Title
+	Set Password Maximum Age
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_maximum_age_login_defs
+Result
+	notapplicable
+
+Title
+	Set Existing Passwords Maximum Age
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_set_max_life_existing
+Result
+	notapplicable
+
+Title
+	Set Password Warning Age
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_warn_age_login_defs
+Result
+	notapplicable
+
+Title
+	Set existing passwords a period of inactivity before they been locked
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_set_post_pw_existing
+Result
+	notapplicable
+
+Title
+	Verify All Account Password Hashes are Shadowed
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_all_shadowed
+Result
+	notapplicable
+
+Title
+	Ensure all users last password change date is in the past
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_last_change_is_in_past
+Result
+	notapplicable
+
+Title
+	Avoid using remember in pam_unix module
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_no_remember
+Result
+	pass
+
+Title
+	All GIDs referenced in /etc/passwd must be defined in /etc/group
+Rule
+	xccdf_org.ssgproject.content_rule_gid_passwd_group_same
+Result
+	pass
+
+Title
+	Ensure There Are No Accounts With Blank or Null Passwords
+Rule
+	xccdf_org.ssgproject.content_rule_no_empty_passwords_etc_shadow
+Result
+	notapplicable
+
+Title
+	Prevent Login to Accounts With Empty Password
+Rule
+	xccdf_org.ssgproject.content_rule_no_empty_passwords_unix
+Result
+	notapplicable
+
+Title
+	Verify No .forward Files Exist
+Rule
+	xccdf_org.ssgproject.content_rule_no_forward_files
+Result
+	notapplicable
+
+Title
+	Verify No netrc Files Exist
+Rule
+	xccdf_org.ssgproject.content_rule_no_netrc_files
+Result
+	notapplicable
+
+Title
+	Verify Only Root Has UID 0
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_no_uid_except_zero
+Result
+	notapplicable
+
+Title
+	Verify Root Has A Primary GID 0
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_root_gid_zero
+Result
+	notapplicable
+
+Title
+	Ensure the Group Used by pam_wheel.so Module Exists on System and is Empty
+Rule
+	xccdf_org.ssgproject.content_rule_ensure_pam_wheel_group_empty
+Result
+	notapplicable
+
+Title
+	Ensure root account access is controlled
+Rule
+	xccdf_org.ssgproject.content_rule_ensure_root_access_controlled
+Result
+	notapplicable
+
+Title
+	Verify Only Group Root Has GID 0
+Rule
+	xccdf_org.ssgproject.content_rule_groups_no_zero_gid_except_root
+Result
+	pass
+
+Title
+	Verify Non-Interactive Accounts Are Locked
+Rule
+	xccdf_org.ssgproject.content_rule_no_invalid_shell_accounts_unlocked
+Result
+	pass
+
+Title
+	Ensure that System Accounts Do Not Run a Shell Upon Login
+Rule
+	xccdf_org.ssgproject.content_rule_no_shelllogin_for_systemaccounts
+Result
+	notapplicable
+
+Title
+	Enforce Usage of pam_wheel with Group Parameter for su Authentication
+Rule
+	xccdf_org.ssgproject.content_rule_use_pam_wheel_group_for_su
+Result
+	fail
+
+Title
+	Set Interactive Session Timeout
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_tmout
+Result
+	notapplicable
+
+Title
+	User Initialization Files Must Be Group-Owned By The Primary Group
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_user_dot_group_ownership
+Result
+	notapplicable
+
+Title
+	User Initialization Files Must Be Owned By the Primary User
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_user_dot_user_ownership
+Result
+	notapplicable
+
+Title
+	All Interactive Users Home Directories Must Exist
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_user_interactive_home_directory_exists
+Result
+	notapplicable
+
+Title
+	All Interactive User Home Directories Must Be Group-Owned By The Primary Group
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupownership_home_directories
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	All Interactive User Home Directories Must Be Owned By The Primary User
+Rule
+	xccdf_org.ssgproject.content_rule_file_ownership_home_directories
+Result
+	pass
+
+Title
+	Ensure User Bash History File Has Correct Permissions
+Rule
+	xccdf_org.ssgproject.content_rule_file_permission_user_bash_history
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Ensure All User Initialization Files Have Mode 0740 Or Less Permissive
+Rule
+	xccdf_org.ssgproject.content_rule_file_permission_user_init_files
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	All Interactive User Home Directories Must Have mode 0750 Or Less Permissive
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_home_directories
+Result
+	pass
+
+Title
+	Ensure that Root's Path Does Not Include World or Group-Writable Directories
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_root_path_dirs_no_write
+W: probe_environmentvariable58: Entity has no value!
+Result
+	pass
+
+Title
+	Ensure that All Root's Path Directories Are Owned by Root
+Rule
+	xccdf_org.ssgproject.content_rule_no_dirs_unowned_by_root
+W: probe_environmentvariable58: Entity has no value!
+Result
+	pass
+
+Title
+	Ensure that All Entries in The Path of Root Are Directories
+Rule
+	xccdf_org.ssgproject.content_rule_root_path_all_dirs
+W: probe_environmentvariable58: Entity has no value!
+Result
+	pass
+
+Title
+	Ensure that Root's Path Does Not Include Relative Paths or Null Directories
+Rule
+	xccdf_org.ssgproject.content_rule_root_path_no_dot
+W: probe_environmentvariable58: Entity has no value!
+Result
+	pass
+
+Title
+	Ensure the Default Bash Umask is Set Correctly
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_umask_etc_bashrc
+Result
+	fail
+
+Title
+	Ensure the Default Umask is Set Correctly in login.defs
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_umask_etc_login_defs
+Result
+	notapplicable
+
+Title
+	Ensure the Default Umask is Set Correctly in /etc/profile
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_umask_etc_profile
+Result
+	fail
+
+Title
+	Ensure the Root Bash Umask is Set Correctly
+Rule
+	xccdf_org.ssgproject.content_rule_accounts_umask_root
+Result
+	pass
+
+Title
+	Ensure AppArmor Utils is installed
+Rule
+	xccdf_org.ssgproject.content_rule_package_apparmor-utils_installed
+Result
+	notapplicable
+
+Title
+	Ensure AppArmor is installed
+Rule
+	xccdf_org.ssgproject.content_rule_package_apparmor_installed
+Result
+	notapplicable
+
+Title
+	All AppArmor Profiles are in enforce or complain mode
+Rule
+	xccdf_org.ssgproject.content_rule_all_apparmor_profiles_in_enforce_complain_mode
+Result
+	notapplicable
+
+Title
+	Ensure AppArmor is enabled in the bootloader configuration
+Rule
+	xccdf_org.ssgproject.content_rule_grub2_enable_apparmor
+Result
+	notapplicable
+
+Title
+	Verify /boot/grub/grub.cfg User Ownership
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_grub2_cfg
+Result
+	notapplicable
+
+Title
+	Verify /boot/grub/grub.cfg Permissions
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_grub2_cfg
+Result
+	notapplicable
+
+Title
+	Set Boot Loader Password in grub2
+Rule
+	xccdf_org.ssgproject.content_rule_grub2_password
+Result
+	notapplicable
+
+Title
+	Set the UEFI Boot Loader Password
+Rule
+	xccdf_org.ssgproject.content_rule_grub2_uefi_password
+Result
+	notapplicable
+
+Title
+	Install systemd-journal-remote Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_systemd-journal-remote_installed
+Result
+	notapplicable
+
+Title
+	Enable systemd-journal-upload Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_systemd-journal-upload_enabled
+Result
+	notapplicable
+
+Title
+	Enable systemd-journald Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_systemd-journald_enabled
+Result
+	notapplicable
+
+Title
+	Ensure journald is configured to compress large log files
+Rule
+	xccdf_org.ssgproject.content_rule_journald_compress
+Result
+	notapplicable
+
+Title
+	Ensure journald ForwardToSyslog is disabled
+Rule
+	xccdf_org.ssgproject.content_rule_journald_disable_forward_to_syslog
+Result
+	notapplicable
+
+Title
+	Ensure journald is configured to write log files to persistent disk
+Rule
+	xccdf_org.ssgproject.content_rule_journald_storage
+Result
+	notapplicable
+
+Title
+	Disable systemd-journal-remote Socket
+Rule
+	xccdf_org.ssgproject.content_rule_socket_systemd-journal-remote_disabled
+Result
+	notapplicable
+
+Title
+	Configure systemd-journal-upload TLS parameters: ServerKeyFile, ServerCertificateFile and TrustedCertificateFile
+Rule
+	xccdf_org.ssgproject.content_rule_systemd_journal_upload_server_tls
+Result
+	notapplicable
+
+Title
+	Configure systemd-journal-upload URL
+Rule
+	xccdf_org.ssgproject.content_rule_systemd_journal_upload_url
+Result
+	notapplicable
+
+Title
+	Install iptables-persistent Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_iptables-persistent_installed
+Result
+	notapplicable
+
+Title
+	Install iptables Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_iptables_installed
+Result
+	notapplicable
+
+Title
+	Remove iptables-persistent Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_iptables-persistent_removed
+Result
+	notapplicable
+
+Title
+	Set Default ip6tables Policy for Incoming Packets
+Rule
+	xccdf_org.ssgproject.content_rule_set_ip6tables_default_rule
+Result
+	notapplicable
+
+Title
+	Set configuration for IPv6 loopback traffic
+Rule
+	xccdf_org.ssgproject.content_rule_set_ipv6_loopback_traffic
+Result
+	notapplicable
+
+Title
+	Set configuration for loopback traffic
+Rule
+	xccdf_org.ssgproject.content_rule_set_loopback_traffic
+Result
+	notapplicable
+
+Title
+	Ensure ip6tables Firewall Rules Exist for All Open Ports
+Rule
+	xccdf_org.ssgproject.content_rule_ip6tables_rules_for_open_ports
+Result
+	notapplicable
+
+Title
+	Ensure iptables Firewall Rules Exist for All Open Ports
+Rule
+	xccdf_org.ssgproject.content_rule_iptables_rules_for_open_ports
+Result
+	notapplicable
+
+Title
+	Set Default iptables Policy for Incoming Packets
+Rule
+	xccdf_org.ssgproject.content_rule_set_iptables_default_rule
+Result
+	notapplicable
+
+Title
+	Configure Accepting Router Advertisements on All IPv6 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra
+Result
+	notapplicable
+
+Title
+	Disable Accepting ICMP Redirects for All IPv6 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_redirects
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Accepting Source-Routed Packets on all IPv6 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_source_route
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for IPv6 Forwarding
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_forwarding
+Result
+	notapplicable
+
+Title
+	Disable Accepting Router Advertisements on all IPv6 Interfaces by Default
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Accepting ICMP Redirects by Default on IPv6 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_redirects
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Accepting Source-Routed Packets on IPv6 Interfaces by Default
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_source_route
+Result
+	notapplicable
+
+Title
+	Disable Accepting ICMP Redirects for All IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_redirects
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Accepting Source-Routed Packets on all IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_source_route
+Result
+	notapplicable
+
+Title
+	Enable Kernel Parameter to Log Martian Packets on all IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_log_martians
+Result
+	notapplicable
+
+Title
+	Enable Kernel Parameter to Use Reverse Path Filtering on all IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_rp_filter
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Accepting Secure ICMP Redirects on all IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_secure_redirects
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Accepting ICMP Redirects by Default on IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_redirects
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Accepting Source-Routed Packets on IPv4 Interfaces by Default
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_source_route
+Result
+	notapplicable
+
+Title
+	Enable Kernel Parameter to Log Martian Packets on all IPv4 Interfaces by Default
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_log_martians
+Result
+	notapplicable
+
+Title
+	Enable Kernel Parameter to Use Reverse Path Filtering on all IPv4 Interfaces by Default
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_rp_filter
+Result
+	notapplicable
+
+Title
+	Configure Kernel Parameter for Accepting Secure Redirects By Default
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_secure_redirects
+Result
+	notapplicable
+
+Title
+	Enable Kernel Parameter to Ignore ICMP Broadcast Echo Requests on IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_icmp_echo_ignore_broadcasts
+Result
+	notapplicable
+
+Title
+	Enable Kernel Parameter to Ignore Bogus ICMP Error Responses on IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_icmp_ignore_bogus_error_responses
+Result
+	notapplicable
+
+Title
+	Enable Kernel Parameter to Use TCP Syncookies on Network Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_tcp_syncookies
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Sending ICMP Redirects on all IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_send_redirects
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for Sending ICMP Redirects on all IPv4 Interfaces by Default
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_send_redirects
+Result
+	notapplicable
+
+Title
+	Disable Kernel Parameter for IP Forwarding on IPv4 Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_ip_forward
+Result
+	notapplicable
+
+Title
+	Install nftables Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_nftables_installed
+Result
+	notapplicable
+
+Title
+	Verify nftables Service is Enabled
+Rule
+	xccdf_org.ssgproject.content_rule_service_nftables_enabled
+Result
+	notapplicable
+
+Title
+	Verify nftables Service is Disabled
+Rule
+	xccdf_org.ssgproject.content_rule_service_nftables_disabled
+Result
+	notapplicable
+
+Title
+	Ensure nftables Default Deny Firewall Policy
+Rule
+	xccdf_org.ssgproject.content_rule_nftables_ensure_default_deny_policy
+Result
+	notapplicable
+
+Title
+	Ensure nftables Rules are Permanent
+Rule
+	xccdf_org.ssgproject.content_rule_nftables_rules_permanent
+Result
+	notapplicable
+
+Title
+	Ensure Base Chains Exist for Nftables
+Rule
+	xccdf_org.ssgproject.content_rule_set_nftables_base_chain
+Result
+	notapplicable
+
+Title
+	Set nftables Configuration for Loopback Traffic
+Rule
+	xccdf_org.ssgproject.content_rule_set_nftables_loopback_traffic
+Result
+	notapplicable
+
+Title
+	Ensure a Table Exists for Nftables
+Rule
+	xccdf_org.ssgproject.content_rule_set_nftables_table
+Result
+	notapplicable
+
+Title
+	Install ufw Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_ufw_installed
+Result
+	notapplicable
+
+Title
+	Remove ufw Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_ufw_removed
+Result
+	notapplicable
+
+Title
+	Verify ufw Enabled
+Rule
+	xccdf_org.ssgproject.content_rule_service_ufw_enabled
+Result
+	notapplicable
+
+Title
+	Verify ufw Active
+Rule
+	xccdf_org.ssgproject.content_rule_check_ufw_active
+Result
+	notapplicable
+
+Title
+	Ensure ufw Default Deny Firewall Policy
+Rule
+	xccdf_org.ssgproject.content_rule_set_ufw_default_rule
+Result
+	notapplicable
+
+Title
+	Set UFW Loopback Traffic
+Rule
+	xccdf_org.ssgproject.content_rule_set_ufw_loopback_traffic
+Result
+	notapplicable
+
+Title
+	Ensure ufw Firewall Rules Exist for All Open Ports
+Rule
+	xccdf_org.ssgproject.content_rule_ufw_rules_for_open_ports
+Result
+	notapplicable
+
+Title
+	Disable Bluetooth Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_bluetooth_disabled
+Result
+	notapplicable
+
+Title
+	Deactivate Wireless Network Interfaces
+Rule
+	xccdf_org.ssgproject.content_rule_wireless_disable_interfaces
+Result
+	notapplicable
+
+Title
+	Ensure No World-Writable Files Exist
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_unauthorized_world_writable
+Result
+	pass
+
+Title
+	Ensure All Files Are Owned by a Group
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_ungroupowned
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Ensure All Files Are Owned by a User
+Rule
+	xccdf_org.ssgproject.content_rule_no_files_unowned_by_user
+Result
+	notapplicable
+
+Title
+	Verify permissions of log files
+Rule
+	xccdf_org.ssgproject.content_rule_permissions_local_var_log
+Result
+	fail
+
+Title
+	Verify Group Who Owns Backup group File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_backup_etc_group
+Result
+	pass
+
+Title
+	Verify Group Who Owns Backup gshadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_backup_etc_gshadow
+Result
+	pass
+
+Title
+	Verify Group Who Owns Backup passwd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_backup_etc_passwd
+Result
+	pass
+
+Title
+	Verify User Who Owns Backup shadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_backup_etc_shadow
+Result
+	pass
+
+Title
+	Verify Group Who Owns group File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_group
+Result
+	pass
+
+Title
+	Verify Group Who Owns gshadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_gshadow
+Result
+	pass
+
+Title
+	Verify Group Who Owns passwd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_passwd
+Result
+	pass
+
+Title
+	Verify Group Who Owns /etc/security/opasswd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_security_opasswd
+Result
+	pass
+
+Title
+	Verify Group Who Owns /etc/security/opasswd.old File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_security_opasswd_old
+Result
+	pass
+
+Title
+	Verify Group Who Owns shadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_shadow
+Result
+	pass
+
+Title
+	Verify Group Who Owns /etc/shells File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_etc_shells
+Result
+	pass
+
+Title
+	Verify User Who Owns Backup group File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_backup_etc_group
+Result
+	pass
+
+Title
+	Verify User Who Owns Backup gshadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_backup_etc_gshadow
+Result
+	pass
+
+Title
+	Verify User Who Owns Backup passwd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_backup_etc_passwd
+Result
+	pass
+
+Title
+	Verify Group Who Owns Backup shadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_backup_etc_shadow
+Result
+	pass
+
+Title
+	Verify User Who Owns group File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_group
+Result
+	pass
+
+Title
+	Verify User Who Owns gshadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_gshadow
+Result
+	pass
+
+Title
+	Verify User Who Owns passwd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_passwd
+Result
+	pass
+
+Title
+	Verify User Who Owns /etc/security/opasswd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_security_opasswd
+Result
+	pass
+
+Title
+	Verify User Who Owns /etc/security/opasswd.old File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_security_opasswd_old
+Result
+	pass
+
+Title
+	Verify User Who Owns shadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_shadow
+Result
+	pass
+
+Title
+	Verify Who Owns /etc/shells File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_etc_shells
+Result
+	pass
+
+Title
+	Verify Permissions on Backup group File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_backup_etc_group
+Result
+	pass
+
+Title
+	Verify Permissions on Backup gshadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_backup_etc_gshadow
+Result
+	pass
+
+Title
+	Verify Permissions on Backup passwd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_backup_etc_passwd
+Result
+	pass
+
+Title
+	Verify Permissions on Backup shadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_backup_etc_shadow
+Result
+	pass
+
+Title
+	Verify Permissions on group File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_group
+Result
+	pass
+
+Title
+	Verify Permissions on gshadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_gshadow
+Result
+	pass
+
+Title
+	Verify Permissions on passwd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_passwd
+Result
+	pass
+
+Title
+	Verify Permissions on /etc/security/opasswd File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_security_opasswd
+Result
+	pass
+
+Title
+	Verify Permissions on /etc/security/opasswd.old File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_security_opasswd_old
+Result
+	pass
+
+Title
+	Verify Permissions on shadow File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_shadow
+Result
+	pass
+
+Title
+	Verify Permissions on /etc/shells File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_etc_shells
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/auth.log File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_auth
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/cloud-init.log* File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_cloud_init
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/*.journal(~) File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_journal
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_groupowner_var_log_journal_0_systemd-journal:ste:1.
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/lastlog File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_lastlog
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/localmessages* File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_localmessages
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/messages File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_messages
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/secure File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_secure
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/syslog File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_syslog
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns /var/log/waagent.log File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_waagent
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Group Who Owns /var/log/(b|w)tmp(.*|-*) File
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_var_log_wbtmp
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify ownership of log files
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupownerships_var_log
+Result
+	pass
+
+Title
+	Verify Groupownership of Files in /var/log/apt
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupownerships_var_log_apt
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Groupownership of Files in /var/log/gdm
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupownerships_var_log_gdm
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_groupownerships_var_log_gdm_0_gdm:ste:1.
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Groupownership of Files in /var/log/gdm3
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupownerships_var_log_gdm3
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_groupownerships_var_log_gdm3_0_gdm:ste:1.
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_groupownerships_var_log_gdm3_1_gdm3:ste:1.
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify Groupownership of Files in /var/log/landscape
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupownerships_var_log_landscape
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_groupownerships_var_log_landscape_1_landscape:ste:1.
+Result
+	pass
+
+Title
+	Verify Grouponwership of Files in /var/log/sssd
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupownerships_var_log_sssd
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_groupownerships_var_log_sssd_0_sssd:ste:1.
+W: oscap:     Obtrusive data from probe!
+W: oscap:     Obtrusive data from probe!
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/auth.log File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_auth
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_owner_var_log_auth_0_syslog:ste:1.
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/cloud-init.log File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_cloud_init
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_owner_var_log_cloud_init_0_syslog:ste:1.
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/*.journal(~) Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_journal
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/lastlog File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_lastlog
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/localmessages File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_localmessages
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_owner_var_log_localmessages_0_syslog:ste:1.
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/messages File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_messages
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/secure File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_secure
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_owner_var_log_secure_0_syslog:ste:1.
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/syslog File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_syslog
+Result
+	notapplicable
+
+Title
+	Verify User Who Owns /var/log/waagent.log File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_waagent
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_owner_var_log_waagent_0_syslog:ste:1.
+Result
+	pass
+
+Title
+	Verify User Who Owns /var/log/(b|w)tmp(.*|-*) File
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_var_log_wbtmp
+Result
+	pass
+
+Title
+	Verify ownership of log files
+Rule
+	xccdf_org.ssgproject.content_rule_file_ownerships_var_log
+Result
+	pass
+
+Title
+	Verify Ownership of Files in /var/log/apt
+Rule
+	xccdf_org.ssgproject.content_rule_file_ownerships_var_log_apt
+Result
+	pass
+
+Title
+	Verify Ownership of Files in /var/log/gdm
+Rule
+	xccdf_org.ssgproject.content_rule_file_ownerships_var_log_gdm
+Result
+	pass
+
+Title
+	Verify Ownership of Files in /var/log/gdm3
+Rule
+	xccdf_org.ssgproject.content_rule_file_ownerships_var_log_gdm3
+Result
+	pass
+
+Title
+	Verify Ownership of Files in /var/log/landscape
+Rule
+	xccdf_org.ssgproject.content_rule_file_ownerships_var_log_landscape
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_ownerships_var_log_landscape_1_landscape:ste:1.
+Result
+	pass
+
+Title
+	Verify Ownership of Files in /var/log/sssd
+Rule
+	xccdf_org.ssgproject.content_rule_file_ownerships_var_log_sssd
+E: oscap:     Failed to convert OVAL state to SEXP, id: oval:ssg-state_file_ownerships_var_log_sssd_0_sssd:ste:1.
+Result
+	pass
+
+Title
+	Verify Permissions on files in the /var/log/apt/.* directory
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_apt
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/auth.log File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_auth
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/cloud-init.log(.*) Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_cloud-init
+Result
+	pass
+
+Title
+	Verify Permissions of Files in /var/log/gdm
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_gdm
+Result
+	pass
+
+Title
+	Verify Permissions of Files in /var/log/gdm3
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_gdm3
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/lastlog(.*) Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_lastlog
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/localmessages(.*) Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_localmessages
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/messages File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_messages
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/secure File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_secure
+Result
+	pass
+
+Title
+	Verify Permissions of Files in /var/log/sssd
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_sssd
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/syslog File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_syslog
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/waagent.log(.*) Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_waagent
+Result
+	pass
+
+Title
+	Verify Permissions on /var/log/wtmp(.*) Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_var_log_wbtmp
+Result
+	pass
+
+Title
+	Remove autofs Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_autofs_removed
+Result
+	pass
+
+Title
+	Disable the Automounter
+Rule
+	xccdf_org.ssgproject.content_rule_service_autofs_disabled
+Result
+	notapplicable
+
+Title
+	Disable Mounting of cramfs
+Rule
+	xccdf_org.ssgproject.content_rule_kernel_module_cramfs_disabled
+Result
+	notapplicable
+
+Title
+	Disable Mounting of freevxfs
+Rule
+	xccdf_org.ssgproject.content_rule_kernel_module_freevxfs_disabled
+Result
+	notapplicable
+
+Title
+	Disable Mounting of hfs
+Rule
+	xccdf_org.ssgproject.content_rule_kernel_module_hfs_disabled
+Result
+	notapplicable
+
+Title
+	Disable Mounting of hfsplus
+Rule
+	xccdf_org.ssgproject.content_rule_kernel_module_hfsplus_disabled
+Result
+	notapplicable
+
+Title
+	Disable Mounting of jffs2
+Rule
+	xccdf_org.ssgproject.content_rule_kernel_module_jffs2_disabled
+Result
+	notapplicable
+
+Title
+	Disable Modprobe Loading of USB Storage Driver
+Rule
+	xccdf_org.ssgproject.content_rule_kernel_module_usb-storage_disabled
+Result
+	notapplicable
+
+Title
+	Add nodev Option to /dev/shm
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nodev
+Result
+	notapplicable
+
+Title
+	Add noexec Option to /dev/shm
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_dev_shm_noexec
+Result
+	notapplicable
+
+Title
+	Add nosuid Option to /dev/shm
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nosuid
+Result
+	notapplicable
+
+Title
+	Add nodev Option to /home
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_home_nodev
+Result
+	notapplicable
+
+Title
+	Add nosuid Option to /home
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_home_nosuid
+Result
+	notapplicable
+
+Title
+	Add nodev Option to /tmp
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_tmp_nodev
+Result
+	notapplicable
+
+Title
+	Add noexec Option to /tmp
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_tmp_noexec
+Result
+	notapplicable
+
+Title
+	Add nosuid Option to /tmp
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_tmp_nosuid
+Result
+	notapplicable
+
+Title
+	Add nodev Option to /var/log/audit
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_log_audit_nodev
+Result
+	notapplicable
+
+Title
+	Add noexec Option to /var/log/audit
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_log_audit_noexec
+Result
+	notapplicable
+
+Title
+	Add nosuid Option to /var/log/audit
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_log_audit_nosuid
+Result
+	notapplicable
+
+Title
+	Add nodev Option to /var/log
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_log_nodev
+Result
+	notapplicable
+
+Title
+	Add noexec Option to /var/log
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_log_noexec
+Result
+	notapplicable
+
+Title
+	Add nosuid Option to /var/log
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_log_nosuid
+Result
+	notapplicable
+
+Title
+	Add nodev Option to /var
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_nodev
+Result
+	notapplicable
+
+Title
+	Add nosuid Option to /var
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_nosuid
+Result
+	notapplicable
+
+Title
+	Add nodev Option to /var/tmp
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_tmp_nodev
+Result
+	notapplicable
+
+Title
+	Add noexec Option to /var/tmp
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_tmp_noexec
+Result
+	notapplicable
+
+Title
+	Add nosuid Option to /var/tmp
+Rule
+	xccdf_org.ssgproject.content_rule_mount_option_var_tmp_nosuid
+Result
+	notapplicable
+
+Title
+	Restrict usage of ptrace to descendant processes
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_kernel_yama_ptrace_scope
+Result
+	notapplicable
+
+Title
+	Disable Core Dumps for All Users
+Rule
+	xccdf_org.ssgproject.content_rule_disable_users_coredumps
+Result
+	notapplicable
+
+Title
+	Disable Core Dumps for SUID programs
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_fs_suid_dumpable
+Result
+	notapplicable
+
+Title
+	Enable Randomized Layout of Virtual Address Space
+Rule
+	xccdf_org.ssgproject.content_rule_sysctl_kernel_randomize_va_space
+Result
+	notapplicable
+
+Title
+	Disable Apport Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_apport_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall avahi Server Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_avahi_removed
+Result
+	pass
+
+Title
+	Disable Avahi Server Software
+Rule
+	xccdf_org.ssgproject.content_rule_service_avahi-daemon_disabled
+Result
+	notapplicable
+
+Title
+	Install the cron service
+Rule
+	xccdf_org.ssgproject.content_rule_package_cron_installed
+Result
+	notapplicable
+
+Title
+	Enable cron Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_cron_enabled
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns cron.d
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_cron_d
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns cron.daily
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_cron_daily
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns cron.hourly
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_cron_hourly
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns cron.monthly
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_cron_monthly
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns cron.weekly
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_cron_weekly
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns Crontab
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_crontab
+Result
+	notapplicable
+
+Title
+	Verify Owner on cron.d
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_cron_d
+Result
+	notapplicable
+
+Title
+	Verify Owner on cron.daily
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_cron_daily
+Result
+	notapplicable
+
+Title
+	Verify Owner on cron.hourly
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_cron_hourly
+Result
+	notapplicable
+
+Title
+	Verify Owner on cron.monthly
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_cron_monthly
+Result
+	notapplicable
+
+Title
+	Verify Owner on cron.weekly
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_cron_weekly
+Result
+	notapplicable
+
+Title
+	Verify Owner on crontab
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_crontab
+Result
+	notapplicable
+
+Title
+	Verify Permissions on cron.d
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_cron_d
+Result
+	notapplicable
+
+Title
+	Verify Permissions on cron.daily
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_cron_daily
+Result
+	notapplicable
+
+Title
+	Verify Permissions on cron.hourly
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_cron_hourly
+Result
+	notapplicable
+
+Title
+	Verify Permissions on cron.monthly
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_cron_monthly
+Result
+	notapplicable
+
+Title
+	Verify Permissions on cron.weekly
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_cron_weekly
+Result
+	notapplicable
+
+Title
+	Verify Permissions on crontab
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_crontab
+Result
+	notapplicable
+
+Title
+	Ensure that /etc/at.allow exists
+Rule
+	xccdf_org.ssgproject.content_rule_file_at_allow_exists
+Result
+	notapplicable
+
+Title
+	Ensure that /etc/cron.allow exists
+Rule
+	xccdf_org.ssgproject.content_rule_file_cron_allow_exists
+Result
+	notapplicable
+
+Title
+	Ensure that /etc/cron.deny does not exist
+Rule
+	xccdf_org.ssgproject.content_rule_file_cron_deny_not_exist
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns /etc/at.allow file
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_at_allow
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns /etc/at.deny file
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_at_deny
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns /etc/cron.allow file
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_cron_allow
+Result
+	notapplicable
+
+Title
+	Verify User Who Owns /etc/at.allow file
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_at_allow
+Result
+	notapplicable
+
+Title
+	Verify User Who Owns /etc/at.deny file
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_at_deny
+Result
+	notapplicable
+
+Title
+	Verify User Who Owns /etc/cron.allow file
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_cron_allow
+Result
+	notapplicable
+
+Title
+	Verify Permissions on /etc/at.allow file
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_at_allow
+Result
+	notapplicable
+
+Title
+	Verify Permissions on /etc/at.deny file
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_at_deny
+Result
+	notapplicable
+
+Title
+	Verify Permissions on /etc/cron.allow file
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_cron_allow
+Result
+	notapplicable
+
+Title
+	Uninstall the nis package
+Rule
+	xccdf_org.ssgproject.content_rule_package_nis_removed
+Result
+	pass
+
+Title
+	Uninstall DHCP Server Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_dhcp_removed
+Result
+	pass
+
+Title
+	Disable DHCPD6 Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_dhcpd6_disabled
+Result
+	notapplicable
+
+Title
+	Disable DHCP Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_dhcpd_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall dnsmasq Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_dnsmasq_removed
+Result
+	pass
+
+Title
+	Disable dnsmasq Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_dnsmasq_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall bind Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_bind_removed
+Result
+	pass
+
+Title
+	Remove ftp Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_ftp_removed
+Result
+	pass
+
+Title
+	Uninstall vsftpd Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_vsftpd_removed
+Result
+	pass
+
+Title
+	Disable vsftpd Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_vsftpd_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall apache2 Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_httpd_removed
+Result
+	pass
+
+Title
+	Disable apache2 Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_httpd_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall nginx Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_nginx_removed
+Result
+	pass
+
+Title
+	Disable nginx Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_nginx_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall dovecot Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_dovecot_removed
+Result
+	pass
+
+Title
+	Disable Dovecot Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_dovecot_disabled
+Result
+	notapplicable
+
+Title
+	Ensure LDAP client is not installed
+Rule
+	xccdf_org.ssgproject.content_rule_package_openldap-clients_removed
+Result
+	pass
+
+Title
+	Uninstall slapd Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_openldap-servers_removed
+Result
+	pass
+
+Title
+	Disable LDAP Server (slapd)
+Rule
+	xccdf_org.ssgproject.content_rule_service_slapd_disabled
+Result
+	notapplicable
+
+Title
+	Ensure Mail Transfer Agent is not Listening on any non-loopback Address
+Rule
+	xccdf_org.ssgproject.content_rule_has_nonlocal_mta
+Result
+	notapplicable
+
+Title
+	Disable Postfix Network Listening
+Rule
+	xccdf_org.ssgproject.content_rule_postfix_network_listening_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall nfs-kernel-server Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_nfs-kernel-server_removed
+Result
+	pass
+
+Title
+	Uninstall rpcbind Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_rpcbind_removed
+Result
+	notapplicable
+
+Title
+	Disable rpcbind Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_rpcbind_disabled
+Result
+	notapplicable
+
+Title
+	Disable Network File System (nfs)
+Rule
+	xccdf_org.ssgproject.content_rule_service_nfs_disabled
+Result
+	notapplicable
+
+Title
+	The Chrony package is installed
+Rule
+	xccdf_org.ssgproject.content_rule_package_chrony_installed
+Result
+	notapplicable
+
+Title
+	Install the systemd_timesyncd Service
+Rule
+	xccdf_org.ssgproject.content_rule_package_timesyncd_installed
+Result
+	notapplicable
+
+Title
+	The Chronyd service is enabled
+Rule
+	xccdf_org.ssgproject.content_rule_service_chronyd_enabled
+Result
+	notapplicable
+
+Title
+	Enable systemd_timesyncd Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_timesyncd_enabled
+Result
+	notapplicable
+
+Title
+	The Chronyd service is disabled
+Rule
+	xccdf_org.ssgproject.content_rule_service_chronyd_disabled
+Result
+	notapplicable
+
+Title
+	Disable systemd_timesyncd Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_timesyncd_disabled
+Result
+	notapplicable
+
+Title
+	Chrony Configure Pool and Server
+Rule
+	xccdf_org.ssgproject.content_rule_chronyd_configure_pool_and_server
+Result
+	notapplicable
+
+Title
+	Ensure that chronyd is running under chrony user account
+Rule
+	xccdf_org.ssgproject.content_rule_chronyd_run_as_chrony_user
+Result
+	notapplicable
+
+Title
+	Ensure a Single Time Synchronization Service is in Use
+Rule
+	xccdf_org.ssgproject.content_rule_ntp_single_service_active
+Result
+	notapplicable
+
+Title
+	Configure Systemd Timesyncd Servers
+Rule
+	xccdf_org.ssgproject.content_rule_service_timesyncd_configured
+Result
+	notapplicable
+
+Title
+	Uninstall rsync Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_rsync_removed
+Result
+	pass
+
+Title
+	Ensure rsyncd service is disabled
+Rule
+	xccdf_org.ssgproject.content_rule_service_rsyncd_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall xinetd package if not used by network services
+Rule
+	xccdf_org.ssgproject.content_rule_package_xinetd_removed
+Result
+	notapplicable
+
+Title
+	Disable xinetd Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_xinetd_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall ypserv Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_ypserv_removed
+Result
+	pass
+
+Title
+	Disable ypserv Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_ypserv_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall rsh Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_rsh_removed
+Result
+	pass
+
+Title
+	Remove Rsh Trust Files
+Rule
+	xccdf_org.ssgproject.content_rule_no_rsh_trust_files
+Result
+	notapplicable
+
+Title
+	Uninstall talk Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_talk_removed
+Result
+	pass
+
+Title
+	Remove telnet Clients
+Rule
+	xccdf_org.ssgproject.content_rule_package_telnet_removed
+Result
+	pass
+
+Title
+	Uninstall tftpd-hpa Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_tftp-server_removed
+Result
+	pass
+
+Title
+	Disable tftpd-hpa Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_tftp_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall CUPS Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_cups_removed
+Result
+	pass
+
+Title
+	Disable the CUPS Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_cups_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall squid Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_squid_removed
+Result
+	pass
+
+Title
+	Disable Squid
+Rule
+	xccdf_org.ssgproject.content_rule_service_squid_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall Samba Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_samba_removed
+Result
+	pass
+
+Title
+	Disable Samba
+Rule
+	xccdf_org.ssgproject.content_rule_service_smb_disabled
+Result
+	notapplicable
+
+Title
+	Uninstall net-snmp Package
+Rule
+	xccdf_org.ssgproject.content_rule_package_net-snmp_removed
+Result
+	pass
+
+Title
+	Disable snmpd Service
+Rule
+	xccdf_org.ssgproject.content_rule_service_snmpd_disabled
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns SSH Server config file
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_sshd_config
+Result
+	notapplicable
+
+Title
+	Verify Group Who Owns SSH Server Configuration Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_groupowner_sshd_drop_in_config
+Result
+	notapplicable
+
+Title
+	Verify Owner on SSH Server config file
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_sshd_config
+Result
+	notapplicable
+
+Title
+	Verify Owner on SSH Server Configuration Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_owner_sshd_drop_in_config
+Result
+	notapplicable
+
+Title
+	Verify Permissions on SSH Server config file
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_sshd_config
+Result
+	notapplicable
+
+Title
+	Verify Permissions on SSH Server Config File
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_sshd_drop_in_config
+Result
+	notapplicable
+
+Title
+	Verify Permissions on SSH Server Private *_key Key Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_sshd_private_key
+Result
+	notapplicable
+
+Title
+	Verify Permissions on SSH Server Public *.pub Key Files
+Rule
+	xccdf_org.ssgproject.content_rule_file_permissions_sshd_pub_key
+Result
+	notapplicable
+
+Title
+	Set SSH Client Alive Count Max
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_set_keepalive
+Result
+	notapplicable
+
+Title
+	Set SSH Client Alive Interval
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout
+Result
+	notapplicable
+
+Title
+	Disable Host-Based Authentication
+Rule
+	xccdf_org.ssgproject.content_rule_disable_host_auth
+Result
+	notapplicable
+
+Title
+	Disable SSH Access via Empty Passwords
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_disable_empty_passwords
+Result
+	notapplicable
+
+Title
+	Disable SSH Support for .rhosts Files
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_disable_rhosts
+Result
+	notapplicable
+
+Title
+	Disable SSH Root Login
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_disable_root_login
+Result
+	notapplicable
+
+Title
+	Do Not Allow SSH Environment Options
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_do_not_permit_user_env
+Result
+	notapplicable
+
+Title
+	Enable PAM
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_enable_pam
+Result
+	notapplicable
+
+Title
+	Enable SSH Warning Banner
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_enable_warning_banner_net
+Result
+	notapplicable
+
+Title
+	Limit Users' SSH Access
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_limit_user_access
+Result
+	notapplicable
+
+Title
+	Ensure SSH LoginGraceTime is configured
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_set_login_grace_time
+Result
+	notapplicable
+
+Title
+	Set LogLevel to INFO
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_set_loglevel_info
+Result
+	notapplicable
+
+Title
+	Set SSH authentication attempt limit
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_set_max_auth_tries
+Result
+	notapplicable
+
+Title
+	Set SSH MaxSessions limit
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_set_max_sessions
+Result
+	notapplicable
+
+Title
+	Ensure SSH MaxStartups is configured
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_set_maxstartups
+Result
+	notapplicable
+
+Title
+	Use Only Strong Ciphers
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_use_strong_ciphers
+Result
+	notapplicable
+
+Title
+	Use Only Strong Key Exchange algorithms
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_use_strong_kex
+Result
+	notapplicable
+
+Title
+	Use Only Strong MACs
+Rule
+	xccdf_org.ssgproject.content_rule_sshd_use_strong_macs
+Result
+	notapplicable
+
+
+OSCAP_EVAL_EXIT_CODE=2

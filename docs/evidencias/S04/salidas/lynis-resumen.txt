@@ -1,0 +1,43 @@
+TALLER 04 - RESUMEN DE AUDITORIA LYNIS
+
+Ejecucion
+- Inicio registrado por Lynis: 2026-09-09 20:53:56 UTC
+- Fin registrado por Lynis: 2026-09-09 20:55:03 UTC
+- Lynis: 3.1.8
+- Commit del codigo Lynis: cd2c72ff101627bdf4b468950bb601581d02ce60
+- Imagen Docker local: sha256:db416ba4d6adb2e63323ac54109907a7d4a3175940e414fc241776b6de5a3c70
+- Objetivo observado: Docker Desktop, Ubuntu 26.04.1 LTS, kernel 5.15.167.4-microsoft-standard-WSL2
+- Metodo: sistema montado en /rootfs/ con acceso de solo lectura
+
+Resultados
+- Hardening index: 57
+- Pruebas realizadas: 230
+- Advertencias: 2
+- Sugerencias: 35
+
+Advertencias reales ordenadas por relevancia de auditoria
+
+1. LOGG-2138
+   Hallazgo: klogd no esta en ejecucion, lo que puede provocar la perdida de mensajes del kernel en los archivos de registro.
+   Relevancia: afecta la integridad y disponibilidad de la evidencia de registro usada para detectar e investigar incidentes.
+
+2. PKGS-7390
+   Hallazgo: apt-get check devolvio un codigo de salida no satisfactorio.
+   Relevancia: la comprobacion de consistencia de paquetes no pudo completarse.
+   Observacion: la consola muestra que /rootfs/usr/bin/apt-get no pudo cargar libapt-pkg.so.6.0 desde el contenedor. Debe validarse de forma nativa antes de atribuirlo a una inconsistencia real del sistema auditado.
+
+No existe una tercera advertencia en lynis-report.dat. No se agrega una advertencia artificial.
+
+Sugerencias relevantes para el analisis posterior
+- ACCT-9628: habilitar auditd para recopilar informacion de auditoria.
+- FINT-4350: instalar una herramienta de integridad de archivos para vigilar cambios en archivos criticos.
+- KRNL-6000: revisar los valores sysctl que difieren del perfil de endurecimiento.
+
+Limitaciones de la evidencia
+- El equipo anfitrion es Windows 11, pero Lynis audita sistemas Unix. Esta ejecucion observo el anfitrion Linux de Docker Desktop/WSL2 y no constituye una auditoria nativa de Windows.
+- Lynis informo excepciones al generar el identificador del host, consultar el gestor de paquetes y recopilar interfaces de red. Los hallazgos afectados deben interpretarse como resultados parciales.
+- La primera ejecucion uso /rootfs sin barra final y produjo rutas incorrectas como /rootfsetc/passwd. Se conserva separadamente como intento fallido y no se usa para estos resultados.
+
+Archivos fuente
+- 20_evidencia/E04_config/lynis-report.dat
+- 20_evidencia/E04_config/lynis-consola.txt

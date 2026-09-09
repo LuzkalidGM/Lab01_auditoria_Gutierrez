@@ -1,0 +1,60 @@
+TALLER 04 - FASE 3 - DOCKER BENCH FOR SECURITY
+
+Trazabilidad
+- Docker Bench for Security: 1.6.0
+- Benchmark declarado por la herramienta: CIS Docker Benchmark 1.6.0
+- Repositorio oficial: https://github.com/docker/docker-bench-security
+- Commit: 154869da6418089decf7e1ab0cfca0e1cdfc5c49
+- Imagen local: si084-docker-bench:official-local
+- Image ID: sha256:212220aa7b4a4bc4c8495a9ea57737f4aa5817fee0129d200c1ab2141ab81e63
+- Entorno auditado: Docker Desktop 4.40.0, Engine 28.0.4, Linux/WSL2 sobre Windows 11
+- Codigo de salida de la ejecucion valida: 0
+
+Resultados reportados
+- Controles totales: 117 (campo checks del JSON: 117)
+- PASS: 35
+- WARN: 25
+- INFO: 48
+- NOTE: 9
+- Score bruto informado por Docker Bench: 2
+
+Seccion 4 - Container Images and Build File
+- WARN: 3 (4.1, 4.5, 4.6)
+- 4.1: Ensure that a user for the container has been created (Automated)
+  Evidencia: running as root: si084_dvwa retailvision-db usuarios-usuarioservice-db-1
+- 4.5: Ensure Content trust for Docker is Enabled (Automated)
+- 4.6: Ensure that HEALTHCHECK instructions have been added to container images (Automated)
+  Evidencia: Images w/o HEALTHCHECK: [si084-lynis:official-local] [ubuntu:22.04] [wordpress:latest] [mariadb:11] [bkimminich/juice-shop:latest] [alpine:latest] [jaegertracing/all-in-one:latest] [postgres:16] [postgres:latest] [rabbitmq:4.2] [serieslab-api:latest] [clienteapi-api:latest] [clienteapi:latest] [prom/prometheus:latest] [booksapi-api:latest] [grafana/grafana:latest] [mongo:latest] [mcr.microsoft.com/mssql/server:latest] [mcr.microsoft.com/mssql/server:2019-latest] [vulnerables/web-dvwa:latest] [mcr.microsoft.com/mssql-tools:latest]
+
+Seccion 5 - Container Runtime
+- WARN: 10 (5.2, 5.3, 5.9, 5.11, 5.12, 5.13, 5.14, 5.26, 5.27, 5.29)
+- 5.2: Ensure that, if applicable, an AppArmor Profile is enabled (Automated)
+  Evidencia: Containers with no AppArmorProfile: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+- 5.3: Ensure that, if applicable, SELinux security options are set (Automated)
+  Evidencia: Containers with no SecurityOptions: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+- 5.9: Ensure that only needed ports are open on the container (Manual)
+  Evidencia: Containers with open ports: si084_juiceshop:3000 si084_dvwa:8081 retailvision-db:55432 usuarios-usuarioservice-db-1:51825 prometheus:9090
+- 5.11: Ensure that the memory usage for containers is limited (Automated)
+  Evidencia: Container running without memory restrictions: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+- 5.12: Ensure that CPU priority is set appropriately on containers (Automated)
+  Evidencia: Containers running without CPU restrictions: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+- 5.13: Ensure that the container's root filesystem is mounted as read only (Automated)
+  Evidencia: Containers running with root FS mounted R/W: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+- 5.14: Ensure that incoming container traffic is bound to a specific host interface (Automated)
+  Evidencia: Containers with port bound to wildcard IP: retailvision-db:0.0.0.0 usuarios-usuarioservice-db-1:0.0.0.0 prometheus:0.0.0.0
+- 5.26: Ensure that the container is restricted from acquiring additional privileges (Automated)
+  Evidencia: Containers without restricted privileges: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+- 5.27: Ensure that container health is checked at runtime (Automated)
+  Evidencia: Containers without health check: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+- 5.29: Ensure that the PIDs cgroup limit is used (Automated)
+  Evidencia: Containers without PIDs cgroup limit: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+
+Observacion solicitada
+- El control 5.31 obtuvo PASS; no se registro como hallazgo.
+
+Limitaciones de interpretacion
+- Docker Bench se ejecuto dentro de un contenedor contra Docker Desktop/WSL2.
+- Las secciones 1 y 3 dependen de archivos y servicios del host Linux; Docker Desktop no expone todos esos elementos, por lo que varios controles aparecen como INFO/File not found y su cobertura es parcial.
+- Las secciones 4 y 5 consultaron las imagenes y los contenedores visibles en el daemon durante la corrida. Sus resultados describen ese inventario y estado temporal.
+- Los WARN 5.2 y 5.3 deben interpretarse en el contexto del mecanismo de seguridad disponible en Docker Desktop/WSL2.
+- Los avisos iniciales del daemon escritos como WARNING no se sumaron a los 25 controles CIS WARN.

@@ -1,0 +1,77 @@
+DOCKER BENCH FOR SECURITY - CONTROLES WARN OBSERVADOS
+Fuente: docker-bench-security.log.json generado en la ejecucion real
+Total de controles WARN: 25
+Criterio de conteo: un WARN por control CIS; los detalles por contenedor no se cuentan como controles adicionales.
+
+SECCION 1 - Host Configuration
+------------------------------------------------------------------------------
+[1.1.1] Ensure a separate partition for containers has been created (Automated)
+
+[1.1.3] Ensure auditing is configured for the Docker daemon (Automated)
+
+[1.1.4] Ensure auditing is configured for Docker files and directories -/run/containerd (Automated)
+
+[1.1.5] Ensure auditing is configured for Docker files and directories - /var/lib/docker (Automated)
+
+SECCION 2 - Docker daemon configuration
+------------------------------------------------------------------------------
+[2.2] Ensure network traffic is restricted between containers on the default bridge (Scored)
+
+[2.9] Enable user namespace support (Scored)
+
+[2.12] Ensure that authorization for Docker client commands is enabled (Scored)
+
+[2.13] Ensure centralized and remote logging is configured (Scored)
+
+[2.14] Ensure containers are restricted from acquiring new privileges (Scored)
+
+[2.15] Ensure live restore is enabled (Scored)
+
+[2.16] Ensure Userland Proxy is Disabled (Scored)
+
+SECCION 3 - Docker daemon configuration files
+------------------------------------------------------------------------------
+[3.15] Ensure that the Docker socket file ownership is set to root:docker (Automated)
+Detalle: Wrong ownership for /var/run/docker.sock
+
+SECCION 4 - Container Images and Build File
+------------------------------------------------------------------------------
+[4.1] Ensure that a user for the container has been created (Automated)
+Detalle: running as root: si084_dvwa retailvision-db usuarios-usuarioservice-db-1
+
+[4.5] Ensure Content trust for Docker is Enabled (Automated)
+
+[4.6] Ensure that HEALTHCHECK instructions have been added to container images (Automated)
+Detalle: Images w/o HEALTHCHECK: [si084-lynis:official-local] [ubuntu:22.04] [wordpress:latest] [mariadb:11] [bkimminich/juice-shop:latest] [alpine:latest] [jaegertracing/all-in-one:latest] [postgres:16] [postgres:latest] [rabbitmq:4.2] [serieslab-api:latest] [clienteapi-api:latest] [clienteapi:latest] [prom/prometheus:latest] [booksapi-api:latest] [grafana/grafana:latest] [mongo:latest] [mcr.microsoft.com/mssql/server:latest] [mcr.microsoft.com/mssql/server:2019-latest] [vulnerables/web-dvwa:latest] [mcr.microsoft.com/mssql-tools:latest]
+
+SECCION 5 - Container Runtime
+------------------------------------------------------------------------------
+[5.2] Ensure that, if applicable, an AppArmor Profile is enabled (Automated)
+Detalle: Containers with no AppArmorProfile: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+
+[5.3] Ensure that, if applicable, SELinux security options are set (Automated)
+Detalle: Containers with no SecurityOptions: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+
+[5.9] Ensure that only needed ports are open on the container (Manual)
+Detalle: Containers with open ports: si084_juiceshop:3000 si084_dvwa:8081 retailvision-db:55432 usuarios-usuarioservice-db-1:51825 prometheus:9090
+
+[5.11] Ensure that the memory usage for containers is limited (Automated)
+Detalle: Container running without memory restrictions: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+
+[5.12] Ensure that CPU priority is set appropriately on containers (Automated)
+Detalle: Containers running without CPU restrictions: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+
+[5.13] Ensure that the container's root filesystem is mounted as read only (Automated)
+Detalle: Containers running with root FS mounted R/W: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+
+[5.14] Ensure that incoming container traffic is bound to a specific host interface (Automated)
+Detalle: Containers with port bound to wildcard IP: retailvision-db:0.0.0.0 usuarios-usuarioservice-db-1:0.0.0.0 prometheus:0.0.0.0
+
+[5.26] Ensure that the container is restricted from acquiring additional privileges (Automated)
+Detalle: Containers without restricted privileges: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+
+[5.27] Ensure that container health is checked at runtime (Automated)
+Detalle: Containers without health check: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
+
+[5.29] Ensure that the PIDs cgroup limit is used (Automated)
+Detalle: Containers without PIDs cgroup limit: si084_juiceshop si084_dvwa retailvision-db usuarios-usuarioservice-db-1 prometheus
