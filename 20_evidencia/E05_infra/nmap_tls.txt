@@ -1,0 +1,130 @@
+# Nmap 7.98 scan initiated Wed Sep 16 21:15:28 2026 as: /usr/bin/nmap --script ssl-enum-ciphers -p 443,8443 -oN /evidencia/nmap_tls.txt 172.18.0.6 172.18.0.8 172.18.0.5 172.18.0.7 172.18.0.9 172.18.0.4 172.18.0.3 172.18.0.2 172.18.0.1
+Nmap scan report for si084_db.si084-lab_audit_net (172.18.0.6)
+Host is up (0.0000090s latency).
+
+PORT     STATE  SERVICE
+443/tcp  closed https
+8443/tcp closed https-alt
+MAC Address: 2E:B3:86:52:65:B5 (Unknown)
+
+Nmap scan report for si084_simplerisk.si084-lab_audit_net (172.18.0.8)
+Host is up (0.0000080s latency).
+
+PORT     STATE  SERVICE
+443/tcp  open   https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CCM_8 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CCM (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CCM_8 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CCM (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CCM_8 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CCM (rsa 2048) - A
+|       TLS_RSA_WITH_ARIA_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CCM_8 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CCM (rsa 2048) - A
+|       TLS_RSA_WITH_ARIA_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|     cipher preference: server
+|_  least strength: A
+8443/tcp closed https-alt
+MAC Address: FE:80:6D:BB:48:5A (Unknown)
+
+Nmap scan report for si084_srdb.si084-lab_audit_net (172.18.0.5)
+Host is up (0.0000070s latency).
+
+PORT     STATE  SERVICE
+443/tcp  closed https
+8443/tcp closed https-alt
+MAC Address: 7A:76:AC:AC:FD:BF (Unknown)
+
+Nmap scan report for si084_portal.si084-lab_audit_net (172.18.0.7)
+Host is up (0.0000080s latency).
+
+PORT     STATE  SERVICE
+443/tcp  closed https
+8443/tcp closed https-alt
+MAC Address: 6A:9A:81:DA:E8:44 (Unknown)
+
+Nmap scan report for si084_dvwa.si084-lab_audit_net (172.18.0.4)
+Host is up (0.0000080s latency).
+
+PORT     STATE  SERVICE
+443/tcp  closed https
+8443/tcp closed https-alt
+MAC Address: 8A:92:67:A5:99:65 (Unknown)
+
+Nmap scan report for si084_juiceshop.si084-lab_audit_net (172.18.0.3)
+Host is up (0.0000090s latency).
+
+PORT     STATE  SERVICE
+443/tcp  closed https
+8443/tcp closed https-alt
+MAC Address: BE:04:0A:45:DB:DE (Unknown)
+
+Nmap scan report for si084_wpdb.si084-lab_audit_net (172.18.0.2)
+Host is up (0.000092s latency).
+
+PORT     STATE  SERVICE
+443/tcp  closed https
+8443/tcp closed https-alt
+MAC Address: A6:F4:C9:FD:81:DF (Unknown)
+
+Nmap scan report for 172.18.0.1
+Host is up (0.0000070s latency).
+
+PORT     STATE  SERVICE
+443/tcp  closed https
+8443/tcp closed https-alt
+MAC Address: D6:90:A1:34:D5:44 (Unknown)
+
+Nmap scan report for c32d051e8812 (172.18.0.9)
+Host is up.
+
+PORT     STATE    SERVICE
+443/tcp  filtered https
+8443/tcp filtered https-alt
+
+# Nmap done at Wed Sep 16 21:15:32 2026 -- 9 IP addresses (9 hosts up) scanned in 3.91 seconds

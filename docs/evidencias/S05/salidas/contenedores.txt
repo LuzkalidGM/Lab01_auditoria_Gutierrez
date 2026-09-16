@@ -1,0 +1,7 @@
+si084_portal Up 19 seconds 127.0.0.1:8082->80/tcp
+si084_simplerisk Up 19 seconds (health: starting) 127.0.0.1:8083->80/tcp, 127.0.0.1:8443->443/tcp
+si084_db Up 19 seconds 127.0.0.1:5432->5432/tcp
+si084_juiceshop Up 19 seconds 127.0.0.1:3000->3000/tcp
+si084_srdb Up 19 seconds 3306/tcp
+si084_wpdb Up 19 seconds 3306/tcp
+si084_dvwa Up 19 seconds 127.0.0.1:8081->80/tcp

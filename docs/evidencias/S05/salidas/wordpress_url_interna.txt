@@ -1,0 +1,2 @@
+WordPress ya instalado.
+URL interna ajustada a la red autorizada para ZAP.

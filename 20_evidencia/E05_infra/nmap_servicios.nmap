@@ -1,0 +1,202 @@
+# Nmap 7.98 scan initiated Wed Sep 16 21:12:15 2026 as: /usr/bin/nmap -sV -sC -p- --open --host-timeout 180s -oA /evidencia/nmap_servicios 172.18.0.6 172.18.0.8 172.18.0.5 172.18.0.7 172.18.0.9 172.18.0.4 172.18.0.3 172.18.0.2 172.18.0.1
+Nmap scan report for si084_db.si084-lab_audit_net (172.18.0.6)
+Host is up (0.0000040s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+5432/tcp open  postgresql PostgreSQL DB 9.6.0 or later
+MAC Address: 2E:B3:86:52:65:B5 (Unknown)
+
+Nmap scan report for si084_simplerisk.si084-lab_audit_net (172.18.0.8)
+Host is up (0.0000050s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Apache httpd
+|_http-title: Did not follow redirect to https://si084_simplerisk.si084-lab_audit_net/
+|_http-server-header: Apache
+443/tcp open  ssl/http Apache httpd
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=simplerisk
+| Not valid before: 2026-09-09T20:04:51
+|_Not valid after:  2027-09-09T20:04:51
+| tls-alpn: 
+|_  http/1.1
+|_http-server-header: Apache
+|_http-title: SimpleRisk: Enterprise Risk Management Simplified
+MAC Address: FE:80:6D:BB:48:5A (Unknown)
+
+Nmap scan report for si084_srdb.si084-lab_audit_net (172.18.0.5)
+Host is up (0.0000050s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MariaDB 11.8.9
+| mysql-info: 
+|   Protocol: 10
+|   Version: 11.8.9-MariaDB-ubu2404
+|   Thread ID: 4
+|   Capabilities flags: 65534
+|   Some Capabilities: Speaks41ProtocolOld, IgnoreSpaceBeforeParenthesis, SupportsLoadDataLocal, SwitchToSSLAfterHandshake, ConnectWithDatabase, DontAllowDatabaseTableColumn, FoundRows, SupportsTransactions, IgnoreSigpipes, SupportsCompression, Support41Auth, ODBCClient, Speaks41ProtocolNew, LongColumnFlag, InteractiveClient, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: Xi),CJ*0U=m0FM3S+zG4
+|_  Auth Plugin Name: mysql_native_password
+| ssl-cert: Subject: commonName=MariaDB Server
+| Not valid before: 2026-09-16T21:10:37
+|_Not valid after:  2036-09-13T21:10:37
+|_ssl-date: TLS randomness does not represent time
+MAC Address: 7A:76:AC:AC:FD:BF (Unknown)
+
+Nmap scan report for si084_portal.si084-lab_audit_net (172.18.0.7)
+Host is up (0.0000040s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.68 ((Debian))
+|_http-trane-info: Problem with XML parsing of /evox/about
+| http-title: WordPress &rsaquo; Installation
+|_Requested resource was http://si084_portal.si084-lab_audit_net/wp-admin/install.php
+|_http-server-header: Apache/2.4.68 (Debian)
+MAC Address: 6A:9A:81:DA:E8:44 (Unknown)
+
+Nmap scan report for laughing_banzai.si084-lab_audit_net (172.18.0.9)
+Host is up (0.0000040s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT      STATE SERVICE     VERSION
+45493/tcp open  ssl/unknown
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions: 
+|     HTTP/1.1 200
+|     Content-Length: 0
+|_    Connection: close
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port45493-TCP:V=7.98%T=SSL%I=7%D=9/16%Time=6AAB066B%P=x86_64-unknown-li
+SF:nux-gnu%r(GetRequest,36,"HTTP/1\.1\x20200\r\nContent-Length:\x200\r\nCo
+SF:nnection:\x20close\r\n\r\n")%r(HTTPOptions,36,"HTTP/1\.1\x20200\r\nCont
+SF:ent-Length:\x200\r\nConnection:\x20close\r\n\r\n")%r(FourOhFourRequest,
+SF:36,"HTTP/1\.1\x20200\r\nContent-Length:\x200\r\nConnection:\x20close\r\
+SF:n\r\n");
+MAC Address: 2A:A8:4D:4C:33:A5 (Unknown)
+
+Nmap scan report for si084_dvwa.si084-lab_audit_net (172.18.0.4)
+Host is up (0.0000050s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.25 ((Debian))
+|_http-title: 400 Bad Request
+|_http-server-header: Apache/2.4.25 (Debian)
+MAC Address: 8A:92:67:A5:99:65 (Unknown)
+
+Nmap scan report for si084_juiceshop.si084-lab_audit_net (172.18.0.3)
+Host is up (0.0000040s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+3000/tcp open  ppp?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Access-Control-Allow-Origin: *
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: SAMEORIGIN
+|     Feature-Policy: payment 'self'
+|     X-Recruiting: /#/jobs
+|     Accept-Ranges: bytes
+|     Cache-Control: public, max-age=0
+|     Last-Modified: Wed, 16 Sep 2026 21:10:36 GMT
+|     ETag: W/"24b1-1a0ac0ea525"
+|     Content-Type: text/html; charset=UTF-8
+|     Content-Length: 9393
+|     Vary: Accept-Encoding
+|     Date: Wed, 16 Sep 2026 21:12:46 GMT
+|     Connection: close
+|     <!--
+|     Copyright (c) 2014-2026 Bjoern Kimminich & the OWASP Juice Shop contributors.
+|     SPDX-License-Identifier: MIT
+|     <!doctype html>
+|     <html lang="en" data-beasties-container>
+|     <head>
+|     <meta charset="utf-8">
+|     <title>OWASP Juice Shop</title>
+|     <meta name="description" content="Probably the most modern and sophisticated insecure web application">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <link rel="preconnect" href="htt
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 204 No Content
+|     Access-Control-Allow-Origin: *
+|     Access-Control-Allow-Methods: GET,HEAD,PUT,PATCH,POST,DELETE
+|     Vary: Access-Control-Request-Headers
+|     Content-Length: 0
+|     Date: Wed, 16 Sep 2026 21:12:46 GMT
+|     Connection: close
+|   Help, NCP: 
+|     HTTP/1.1 400 Bad Request
+|_    Connection: close
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3000-TCP:V=7.98%I=7%D=9/16%Time=6AAB064E%P=x86_64-unknown-linux-gnu
+SF:%r(GetRequest,2668,"HTTP/1\.1\x20200\x20OK\r\nAccess-Control-Allow-Orig
+SF:in:\x20\*\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20
+SF:SAMEORIGIN\r\nFeature-Policy:\x20payment\x20'self'\r\nX-Recruiting:\x20
+SF:/#/jobs\r\nAccept-Ranges:\x20bytes\r\nCache-Control:\x20public,\x20max-
+SF:age=0\r\nLast-Modified:\x20Wed,\x2016\x20Sep\x202026\x2021:10:36\x20GMT
+SF:\r\nETag:\x20W/\"24b1-1a0ac0ea525\"\r\nContent-Type:\x20text/html;\x20c
+SF:harset=UTF-8\r\nContent-Length:\x209393\r\nVary:\x20Accept-Encoding\r\n
+SF:Date:\x20Wed,\x2016\x20Sep\x202026\x2021:12:46\x20GMT\r\nConnection:\x2
+SF:0close\r\n\r\n<!--\n\x20\x20~\x20Copyright\x20\(c\)\x202014-2026\x20Bjo
+SF:ern\x20Kimminich\x20&\x20the\x20OWASP\x20Juice\x20Shop\x20contributors\
+SF:.\n\x20\x20~\x20SPDX-License-Identifier:\x20MIT\n\x20\x20-->\n\n<!docty
+SF:pe\x20html>\n<html\x20lang=\"en\"\x20data-beasties-container>\n<head>\n
+SF:\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20<title>OWASP\x20Juice\x20S
+SF:hop</title>\n\x20\x20<meta\x20name=\"description\"\x20content=\"Probabl
+SF:y\x20the\x20most\x20modern\x20and\x20sophisticated\x20insecure\x20web\x
+SF:20application\">\n\x20\x20<meta\x20name=\"viewport\"\x20content=\"width
+SF:=device-width,\x20initial-scale=1\">\n\x20\x20<link\x20rel=\"preconnect
+SF:\"\x20href=\"htt")%r(Help,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:nection:\x20close\r\n\r\n")%r(NCP,2F,"HTTP/1\.1\x20400\x20Bad\x20Reques
+SF:t\r\nConnection:\x20close\r\n\r\n")%r(HTTPOptions,EA,"HTTP/1\.1\x20204\
+SF:x20No\x20Content\r\nAccess-Control-Allow-Origin:\x20\*\r\nAccess-Contro
+SF:l-Allow-Methods:\x20GET,HEAD,PUT,PATCH,POST,DELETE\r\nVary:\x20Access-C
+SF:ontrol-Request-Headers\r\nContent-Length:\x200\r\nDate:\x20Wed,\x2016\x
+SF:20Sep\x202026\x2021:12:46\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(RT
+SF:SPRequest,EA,"HTTP/1\.1\x20204\x20No\x20Content\r\nAccess-Control-Allow
+SF:-Origin:\x20\*\r\nAccess-Control-Allow-Methods:\x20GET,HEAD,PUT,PATCH,P
+SF:OST,DELETE\r\nVary:\x20Access-Control-Request-Headers\r\nContent-Length
+SF::\x200\r\nDate:\x20Wed,\x2016\x20Sep\x202026\x2021:12:46\x20GMT\r\nConn
+SF:ection:\x20close\r\n\r\n");
+MAC Address: BE:04:0A:45:DB:DE (Unknown)
+
+Nmap scan report for si084_wpdb.si084-lab_audit_net (172.18.0.2)
+Host is up (0.0000040s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MariaDB 11.8.9
+| mysql-info: 
+|   Protocol: 10
+|   Version: 11.8.9-MariaDB-ubu2404
+|   Thread ID: 41
+|   Capabilities flags: 65534
+|   Some Capabilities: Speaks41ProtocolOld, IgnoreSpaceBeforeParenthesis, SupportsLoadDataLocal, SwitchToSSLAfterHandshake, ConnectWithDatabase, DontAllowDatabaseTableColumn, FoundRows, SupportsTransactions, IgnoreSigpipes, SupportsCompression, Support41Auth, ODBCClient, Speaks41ProtocolNew, LongColumnFlag, InteractiveClient, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: 2kEXk3YF4nP&i`(ARU8U
+|_  Auth Plugin Name: mysql_native_password
+| ssl-cert: Subject: commonName=MariaDB Server
+| Not valid before: 2026-09-16T21:10:39
+|_Not valid after:  2036-09-13T21:10:39
+|_ssl-date: TLS randomness does not represent time
+MAC Address: A6:F4:C9:FD:81:DF (Unknown)
+
+Nmap scan report for 172.18.0.1
+Host is up (0.0000030s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT      STATE SERVICE VERSION
+111/tcp   open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100024  1          43061/udp   status
+|   100024  1          44359/tcp   status
+|   100024  1          48285/udp6  status
+|_  100024  1          59527/tcp6  status
+44359/tcp open  status  1 (RPC #100024)
+MAC Address: D6:90:A1:34:D5:44 (Unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep 16 21:15:27 2026 -- 9 IP addresses (9 hosts up) scanned in 192.74 seconds

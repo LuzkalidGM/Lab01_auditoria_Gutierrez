@@ -1,0 +1,99 @@
+[
+    {
+        "Name": "si084-lab_audit_net",
+        "Id": "af9cd79837df34f7e41550fdfbfc196ed16e14a51a479fcbfb1d84672ae373fe",
+        "Created": "2026-09-16T21:10:30.424262883Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "d00c919677770a6bbbf0275ab5c9a7cf8c21268d599c2e4e634e61ae0ec1e831",
+            "com.docker.compose.network": "audit_net",
+            "com.docker.compose.project": "si084-lab",
+            "com.docker.compose.version": "5.5.1"
+        },
+        "Containers": {
+            "0fa39b4adaba22d94b46738b7ad292cb941741dc05cdc0a0c546902c636cfe56": {
+                "Name": "si084_db",
+                "EndpointID": "547f4f5e6c94cac9426002b1aa60038dabab3a254a1a722896ceb0002ecd1b24",
+                "MacAddress": "2e:b3:86:52:65:b5",
+                "IPv4Address": "172.18.0.6/16",
+                "IPv6Address": ""
+            },
+            "393aac108b9b9be990602c78ce461671da61f050ab6605a6fe0639c120e8e4a9": {
+                "Name": "si084_simplerisk",
+                "EndpointID": "ed0d567c526c73c17d418bdf98cc337e9624ca72981e8e0922df85db1d41248d",
+                "MacAddress": "fe:80:6d:bb:48:5a",
+                "IPv4Address": "172.18.0.8/16",
+                "IPv6Address": ""
+            },
+            "598a8be9a495b605fe6944a517ae5ab64acdfcaf12dfb1b1b68c05aca061d0d0": {
+                "Name": "si084_srdb",
+                "EndpointID": "9510b63162d7946233c595e3a75333e9c1a95c62b3b8830ff8f4cae740591d33",
+                "MacAddress": "7a:76:ac:ac:fd:bf",
+                "IPv4Address": "172.18.0.5/16",
+                "IPv6Address": ""
+            },
+            "6530ba3cbd4b8bb7f9154a5cb0c943c2b7139682f88143f15c32f4a7dd22e602": {
+                "Name": "si084_portal",
+                "EndpointID": "7af5b15152e0dffefdf190c824953223d7906fe31f7b52f8b2a3b052355deaad",
+                "MacAddress": "6a:9a:81:da:e8:44",
+                "IPv4Address": "172.18.0.7/16",
+                "IPv6Address": ""
+            },
+            "ac7dcf412777e5fea384b0325acb22f3f52e7a20fabd90e32e9ec9ad65f3dfd1": {
+                "Name": "si084_dvwa",
+                "EndpointID": "d2045fe82dc9320a227ff008fbd8f22c24418df3b890774aa4a8d9eb06dc193a",
+                "MacAddress": "8a:92:67:a5:99:65",
+                "IPv4Address": "172.18.0.4/16",
+                "IPv6Address": ""
+            },
+            "b22b137656098777fedef579a644d22272ef1bb5ca16162831a67fef976942cd": {
+                "Name": "si084_juiceshop",
+                "EndpointID": "789cf62009b0ebe37d8cefb81e980da0127321bec7ae0f6a70612d3b5ed9864e",
+                "MacAddress": "be:04:0a:45:db:de",
+                "IPv4Address": "172.18.0.3/16",
+                "IPv6Address": ""
+            },
+            "d362cbe3dad96b0b2123e851ce2a775539ac3046a10ad0fe6de099391db02e71": {
+                "Name": "si084_wpdb",
+                "EndpointID": "21ddf313b59d77f0db26ee6c7e0e7680bf8e3ac551468f9c067b5e8c12b71661",
+                "MacAddress": "a6:f4:c9:fd:81:df",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.18.0.0/16": {
+                        "IPsInUse": 10,
+                        "DynamicIPsAvailable": 65526
+                    }
+                }
+            }
+        }
+    }
+]
