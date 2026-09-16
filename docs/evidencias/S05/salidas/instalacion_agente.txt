@@ -1,0 +1,13 @@
+Selecting previously unselected package wazuh-agent.
+(Reading database ... 18072 files and directories currently installed.)
+Preparing to unpack /tmp/wazuh-agent.deb ...
+Unpacking wazuh-agent (4.9.0-1) ...
+dpkg: dependency problems prevent configuration of wazuh-agent:
+ wazuh-agent depends on lsb-release; however:
+  Package lsb-release is not installed.
+
+dpkg: error processing package wazuh-agent (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ wazuh-agent
+EXIT_CODE=1

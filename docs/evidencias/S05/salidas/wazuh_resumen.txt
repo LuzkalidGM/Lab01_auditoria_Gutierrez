@@ -1,0 +1,14 @@
+
+Count Name
+----- ----
+   45 31101 Web server 400 error code.
+    5 31106 A web attack returned code 200 (success).
+   10 31110 PHP CGI-bin vulnerability attempt.
+    3 31151 Multiple web server 400 error codes from same source ip.
+    2 31516 Suspicious URL access.
+    1 501 New wazuh agent connected.
+    1 503 Wazuh agent started.
+    1 506 Wazuh agent stopped.
+   16 510 Host-based anomaly detection event (rootcheck).
+
+

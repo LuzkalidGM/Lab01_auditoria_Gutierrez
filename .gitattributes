@@ -1,0 +1,10 @@
+# Preserve exact bytes of E05 artifacts so SHA-256 survives clone on Windows/Linux.
+10_planificacion/alcance_E05.md -text
+20_evidencia/E05_app/** -text -whitespace
+20_evidencia/E05_infra/** -text -whitespace
+20_evidencia/SHA256SUMS_E05.txt -text
+30_papeles_trabajo/PT05* -text
+40_hallazgos/PT05* -text
+40_hallazgos/H-002.md -text
+docs/S05/** -text
+docs/evidencias/S05/** -text -whitespace

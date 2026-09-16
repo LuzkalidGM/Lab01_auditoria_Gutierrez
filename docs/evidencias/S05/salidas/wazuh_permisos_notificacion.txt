@@ -1,0 +1,4 @@
+drwxr-x--- 3 wazuh wazuh 4096 Sep 16 21:12 /var/ossec/logs/alerts
+-rw-r----- 2 wazuh wazuh 497797 Sep 16 21:17 /var/ossec/logs/alerts/alerts.json
+uid=0(root) gid=0(root) groups=0(root)
+    <email_notification>no</email_notification>

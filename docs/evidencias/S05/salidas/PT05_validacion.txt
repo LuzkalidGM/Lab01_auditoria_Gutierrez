@@ -1,0 +1,8 @@
+OK zap_baseline_juiceshop: HTML y JSON con sitios
+OK zap_full_juiceshop: HTML y JSON con sitios
+OK zap_full_portal: HTML y JSON con sitios
+OK cinco alertas con criterios asociados
+OK MTTD=0.9956 segundos, n=5
+OK restauracion: hashes, tres filas, importacion y check
+OK Nmap finalizado correctamente
+PENDIENTES: firma docente previa, inventario oficial, capturas, PDF, PR y URL final

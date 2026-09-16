@@ -1,0 +1,24 @@
+created restic repository d1f4d0dc77 at /repo
+
+Please note that knowledge of your password is required to access
+the repository. Losing your password means that your data is
+irrecoverably lost.
+no parent snapshot found, will read all files
+
+Files:           1 new,     0 changed,     0 unmodified
+Dirs:            1 new,     0 changed,     0 unmodified
+Added to the repository: 1.396 KiB (1.038 KiB stored)
+
+processed 1 files, 721 B in 0:00
+snapshot 3f2b889e saved
+restoring snapshot 3f2b889e of [/datos/erp.sql] at 2026-09-16 21:12:29.015010508 +0000 UTC by root@1153cd450944 to /datos/restaurado
+Summary: Restored 2 files/dirs (721 B) in 0:00
+using temporary cache in /tmp/restic-check-cache-1048507462
+create exclusive lock for repository
+load indexes
+check all packs
+check snapshots, trees and blobs
+[0:00] 100.00%  1 / 1 snapshots
+read all data
+[0:00] 100.00%  2 / 2 packs
+no errors were found
